@@ -34,11 +34,14 @@ jobs:
           mkdir -p data
           python fpl_review_pull.py
 
+      - name: Build chat-sized summary
+        run: python fpl_chat_context.py
+
       - name: Commit and push changes
         run: |
           git config user.name "fpl-data-bot"
           git config user.email "fpl-data-bot@users.noreply.github.com"
-          git add fpl_data.json data/gw_review.json
+          git add fpl_data.json data/gw_review.json data/fpl_chat_context.json
 
           if git diff --staged --quiet; then
             echo "No data changes to commit."
