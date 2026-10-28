@@ -21,10 +21,29 @@ import argparse
 import json
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 
 BASE = "https://fantasy.premierleague.com/api"
+
+
+def write_if_changed(path, data, ts_key="generated_at"):
+    """Skip rewriting the file if nothing but the timestamp changed, so the
+    workflow's commit step doesn't produce a no-op commit every run."""
+    path = Path(path)
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            existing = None
+        if existing is not None:
+            existing_compare = {k: v for k, v in existing.items() if k != ts_key}
+            new_compare = {k: v for k, v in data.items() if k != ts_key}
+            if existing_compare == new_compare:
+                print(f"No material change to {path}; leaving file as-is.", file=sys.stderr)
+                return
+    path.write_text(json.dumps(data, indent=2))
 
 
 def get(url):
@@ -298,8 +317,7 @@ def main():
         "all_players": players,
     }
 
-    with open(args.out, "w") as f:
-        json.dump(output, f, indent=2)
+    write_if_changed(args.out, output)
 
     print(f"\nDone. Wrote {len(players)} players to {args.out}", file=sys.stderr)
     if picks_summary:

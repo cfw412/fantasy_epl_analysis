@@ -30,6 +30,23 @@ def get(path):
             time.sleep(2 ** attempt)
 
 
+def write_if_changed(path, data, ts_key="generated_at"):
+    """Skip rewriting the file if nothing but the timestamp changed, so the
+    workflow's commit step doesn't produce a no-op commit every run."""
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            existing = None
+        if existing is not None:
+            existing_compare = {k: v for k, v in existing.items() if k != ts_key}
+            new_compare = {k: v for k, v in data.items() if k != ts_key}
+            if existing_compare == new_compare:
+                print(f"No material change to {path}; leaving file as-is.", file=sys.stderr)
+                return
+    path.write_text(json.dumps(data, indent=2))
+
+
 def main():
     boot = get("bootstrap-static/")
     players = {p["id"]: p for p in boot["elements"]}
@@ -118,7 +135,7 @@ def main():
             )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(out, indent=2))
+    write_if_changed(OUT, out)
     print(f"Wrote {OUT} (gameweek={out.get('gameweek')})")
 
 
