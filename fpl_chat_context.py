@@ -18,12 +18,16 @@ REVIEW_IN = Path("data/gw_review.json")
 OUT = Path("data/fpl_chat_context.json")
 
 CANDIDATES_PER_POSITION = 15
+MIN_MINUTES_FOR_CANDIDACY = 90  # filter out players with ~no game time this season
+XGI_PRIOR_PER90 = 0.15  # league-average-ish attacking rate, for shrinkage below
+XGI_SHRINKAGE_90S = 3  # blend in ~3 matches of the prior to damp small samples
 
 PLAYER_FIELDS = [
     "id", "web_name", "team", "position", "price_m", "status",
     "chance_of_playing_next_round", "news", "form", "total_points",
     "points_per_game", "selected_by_percent", "expected_goal_involvements",
-    "avg_fixture_difficulty_next_n", "upcoming_fixtures",
+    "avg_fixture_difficulty_next_n", "upcoming_fixtures", "minutes",
+    "cost_change_event",
 ]
 SQUAD_EXTRA_FIELDS = ["is_captain", "is_vice_captain", "multiplier", "squad_position"]
 
@@ -33,9 +37,39 @@ PICK_FIELDS = [
 ]
 PICK_STAT_FIELDS = ["minutes", "goals_scored", "assists", "bonus"]
 
+OUTLOOK_SCORE_NOTE = (
+    "outlook_score is a forward-looking heuristic, not a verdict: recent form "
+    "+ underlying attacking rate (xG+xA per 90, shrunk toward a league-average "
+    "rate for small minute samples so one big cameo can't dominate) + a bonus "
+    "for an easy upcoming fixture run (avg_fixture_difficulty_next_n). It "
+    "exists so a good fixture swing or strong xG/xA can surface a player even "
+    "when recent form alone wouldn't. Combine with live news/press conference "
+    "research before acting on it."
+)
+
+
+def outlook_score(p):
+    """Blend recent form with forward-looking signals (fixture run, underlying
+    attacking rate) so transfer targets reflect expected outlook, not just
+    current form."""
+    form = p.get("form") or 0.0
+    minutes = p.get("minutes") or 0
+    xgi = p.get("expected_goal_involvements") or 0.0
+    nineties = minutes / 90
+    # Empirical-Bayes shrinkage: blend in a few 90s of a league-average rate
+    # so a small sample (e.g. one explosive 20-minute cameo) can't produce an
+    # inflated per-90 rate.
+    xgi_rate = (xgi + XGI_PRIOR_PER90 * XGI_SHRINKAGE_90S) / (nineties + XGI_SHRINKAGE_90S)
+
+    avg_fdr = p.get("avg_fixture_difficulty_next_n")
+    fixture_bonus = max(0.0, 3.0 - avg_fdr) if avg_fdr is not None else 0.0
+
+    return round(form + xgi_rate * 10 + fixture_bonus * 1.5, 2)
+
 
 def trim_player(p, extra_fields=()):
     row = {k: p.get(k) for k in PLAYER_FIELDS}
+    row["outlook_score"] = outlook_score(p)
     for k in extra_fields:
         row[k] = p.get(k)
     return row
@@ -44,13 +78,17 @@ def trim_player(p, extra_fields=()):
 def top_transfer_candidates(all_players, squad_ids):
     by_position = {}
     for p in all_players:
-        if p["id"] in squad_ids or p.get("status") != "a":
+        if (
+            p["id"] in squad_ids
+            or p.get("status") != "a"
+            or (p.get("minutes") or 0) < MIN_MINUTES_FOR_CANDIDACY
+        ):
             continue
         by_position.setdefault(p["position"], []).append(p)
 
     candidates = {}
     for position, players in by_position.items():
-        players.sort(key=lambda p: (p["form"], p["total_points"]), reverse=True)
+        players.sort(key=lambda p: (outlook_score(p), p["total_points"]), reverse=True)
         candidates[position] = [
             trim_player(p) for p in players[:CANDIDATES_PER_POSITION]
         ]
@@ -148,6 +186,7 @@ def main():
             "many free transfers and how much bank you have each week."
         ),
         "team_fixture_runs_best_to_worst": data.get("team_fixture_runs_best_to_worst"),
+        "transfer_candidates_note": OUTLOOK_SCORE_NOTE,
         "transfer_candidates_by_position": top_transfer_candidates(
             data.get("all_players", []), squad_ids
         ),
