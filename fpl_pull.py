@@ -314,6 +314,8 @@ def main():
         } if entry_info else None,
         "squad": picks_summary,
         "team_fixture_runs_best_to_worst": team_fixture_runs,
+        "chip_windows": bootstrap.get("chips", []),
+        "max_extra_free_transfers": bootstrap.get("game_settings", {}).get("max_extra_free_transfers"),
         "all_players": players,
     }
 
@@ -323,8 +325,8 @@ def main():
     if picks_summary:
         print(f"Squad pulled for GW{picks_summary['gameweek']} — {len(picks_summary['picks'])} players, "
               f"bank £{picks_summary['bank']}m", file=sys.stderr)
-    print("\nNOTE: 'free_transfers' isn't exposed on the public picks endpoint reliably — "
-          "just tell Claude how many free transfers you have each week.", file=sys.stderr)
+    print("\nNOTE: 'free_transfers' isn't exposed directly by any public endpoint — "
+          "fpl_chat_context.py derives it from transfer history instead.", file=sys.stderr)
     print("Upload this JSON file to Claude for analysis.", file=sys.stderr)
 
 

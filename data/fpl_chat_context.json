@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-28T03:21:50.372811+00:00",
+  "generated_at": "2026-10-28T04:38:38.254776+00:00",
   "entry_id": 4455838,
   "manager_summary": {
     "name": "Charlie Whorton",
     "team_name": "British Diving Team",
     "overall_points": 435,
-    "overall_rank": 6344207
+    "overall_rank": 6344206
   },
   "current_gameweek": 8,
   "next_gameweek": 9,
@@ -1291,7 +1291,26 @@
       ]
     }
   ],
-  "free_transfers_note": "Not reliably exposed by the public FPL API -- tell Claude how many free transfers and how much bank you have each week.",
+  "free_transfers_available": 4,
+  "free_transfers_note": "Not exposed directly by any public FPL endpoint -- derived by replaying transfer history (gameweek-by-gameweek transfers made vs. hit cost charged, capped per max_extra_free_transfers). Trust it unless free_transfers_reconciles is false, in which case confirm the real number before recommending a hit.",
+  "free_transfers_reconciles": true,
+  "chips_available": [
+    {
+      "name": "freehit",
+      "window_closes_gw": 19,
+      "window_closes_deadline": "2027-01-01T18:30:00Z"
+    },
+    {
+      "name": "bboost",
+      "window_closes_gw": 19,
+      "window_closes_deadline": "2027-01-01T18:30:00Z"
+    },
+    {
+      "name": "3xc",
+      "window_closes_gw": 19,
+      "window_closes_deadline": "2027-01-01T18:30:00Z"
+    }
+  ],
   "team_fixture_runs_best_to_worst": [
     {
       "team": "TOT",
@@ -4604,7 +4623,7 @@
         "form": 8.0,
         "total_points": 34,
         "points_per_game": 4.9,
-        "selected_by_percent": 11.6,
+        "selected_by_percent": 11.7,
         "expected_goal_involvements": 2.7,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [

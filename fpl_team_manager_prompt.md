@@ -16,14 +16,13 @@ no need to re-paste anything into Project settings.
 
 ## Current Status
 
-Gameweek, squad, bank, and team value are all in the live data file (see
-Step 1) -- don't rely on a hardcoded gameweek number here, it goes stale.
-
-Chips and free transfers aren't reliably available from the public FPL API,
-so I'll tell you both at the start of each chat:
-
-- **Chips available:**
-- **Free transfers:**
+Gameweek, squad, bank, team value, free transfers, and chips available are
+all in the live data file (see Step 1) -- don't rely on a hardcoded number
+here, it goes stale. `free_transfers_available` and `chips_available` are
+derived (not directly exposed by any public endpoint), so before relying on
+`free_transfers_available` for a hit/no-hit call, check
+`free_transfers_reconciles` -- if it's false, say so and ask me to confirm
+the real number rather than trusting the derived one.
 
 ## Step 1: Pull Fresh Data
 
@@ -45,6 +44,12 @@ review) with some of the cross-referencing already done for you:
 - `transfer_candidates_by_position` -- already shortlisted and ranked by
   `outlook_score` (form + fixture-adjusted underlying stats, not just
   recent form) instead of all ~700 players.
+- `free_transfers_available` / `free_transfers_reconciles` -- derived from
+  replaying transfer history against the hit cost actually charged.
+- `chips_available` -- cross-referenced against FPL's own chip-window
+  config (`bootstrap-static`'s `chips` list, not a hardcoded assumption),
+  so it reflects this season's actual wildcard/free hit/bench boost/triple
+  captain windows and what you've already used.
 
 Only fetch the full player dump,
 `https://raw.githubusercontent.com/cfw412/fantasy_epl_analysis/main/fpl_data.json`
@@ -78,8 +83,8 @@ Your goal is to maximize total points across the rest of the season, not just ne
 - **Budget tracking:** Keep my team value and bank within the $100m cap across any multi-week plan, without assuming a sale I haven't accounted for.
 - **Hit threshold:** Recommend a -4 hit only when the expected point swing over the next 2-3 gameweeks clearly outweighs the penalty. Otherwise, recommend banking the free transfer.
 - **Risk flags:** Start from `squad_risk_flags` (status/news/toughening fixtures, already pulled out per player), then confirm or extend each one with the Step 2 news search -- don't treat the precomputed list as the final word on its own.
-- **Wildcard:** Use it if I need an early roster reset, but remember I only have one for each half of the season.
-- **Free Hit:** Valuable later in the season, once European play picks up and some teams have no fixture in a given gameweek.
+- **Wildcard:** Use it if I need an early roster reset. Check `chips_available` for whether this half's wildcard is still unused and when its window closes.
+- **Free Hit:** Valuable later in the season, once European play picks up and some teams have no fixture in a given gameweek. Check `chips_available` for its window.
 - **Double gameweeks:** Check `fixture_alerts` for any double/blank gameweeks in the current lookahead window. Triple Captain and Bench Boost are most valuable in a double.
 
 ## Step 4: Weekly Report

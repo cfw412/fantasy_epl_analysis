@@ -142,6 +142,58 @@ def detect_fixture_anomalies(team_fixture_runs):
     return doubles, blanks
 
 
+FREE_TRANSFER_CHIPS = {"wildcard", "freehit"}  # unlimited transfers, FT bank untouched
+
+
+def chips_available(chip_windows, chips_used_season, current_gw, gameweeks_by_id):
+    """Cross-reference bootstrap-static's authoritative chip windows
+    (start/stop gameweek per chip, per half of the season) against what's
+    already been used, so this doesn't rely on guessing season rules."""
+    used = [(c["name"], c["event"]) for c in chips_used_season or []]
+    available = []
+    for w in chip_windows or []:
+        name, start, stop = w["name"], w["start_event"], w["stop_event"]
+        if current_gw is None or not (start <= current_gw <= stop):
+            continue  # window not open right now
+        if any(n == name and start <= ev <= stop for n, ev in used):
+            continue  # already used within this window
+        available.append({
+            "name": name,
+            "window_closes_gw": stop,
+            "window_closes_deadline": gameweeks_by_id.get(stop, {}).get("deadline_time"),
+        })
+    return available
+
+
+def free_transfers_available(season_history, chips_used_season, max_extra_free_transfers):
+    """Public FPL endpoints don't expose free-transfers-remaining directly,
+    but it's fully reconstructable from transfer history: +1 per gameweek
+    (capped), consumed by transfers made, untouched during a Wildcard/Free
+    Hit week. Returns (free_transfers, reconciles) -- reconciles is False if
+    the simulation's predicted hits ever disagree with the actual hit cost
+    charged, which would mean this rule model doesn't match something about
+    the real season rules and the number shouldn't be trusted blindly."""
+    cap = 1 + (max_extra_free_transfers if max_extra_free_transfers is not None else 4)
+    chip_by_event = {c["event"]: c["name"] for c in chips_used_season or []}
+    ft = 1  # entering GW2; GW1 is initial squad selection, not part of the FT economy
+    reconciles = True
+    for row in sorted(season_history or [], key=lambda r: r["event"]):
+        event = row["event"]
+        if event == 1:
+            continue
+        made = row.get("event_transfers", 0) or 0
+        if chip_by_event.get(event) in FREE_TRANSFER_CHIPS:
+            free_used, predicted_hits = 0, 0
+        else:
+            free_used = min(made, ft)
+            predicted_hits = max(0, made - ft)
+        actual_hits = (row.get("event_transfers_cost", 0) or 0) // 4
+        if predicted_hits != actual_hits:
+            reconciles = False
+        ft = min(cap, ft - free_used + 1)
+    return ft, reconciles
+
+
 def squad_risk_flags(squad_picks, team_trends):
     """Bundle status/news/fixture-trend into one explicit list for the
     squad, so chat doesn't have to re-scan every pick for risk signals."""
@@ -242,9 +294,16 @@ def main():
     squad_ids = {p["id"] for p in squad["picks"]} if squad else set()
 
     gameweeks = data.get("gameweeks", [])
+    gameweeks_by_id = {gw["id"]: gw for gw in gameweeks}
     next_deadline = next(
         (gw["deadline_time"] for gw in gameweeks if gw["id"] == data.get("next_gameweek")),
         None,
+    )
+
+    season_history = review.get("season_history") if review else None
+    chips_used_season = review.get("chips_used_season") if review else None
+    free_transfers, free_transfers_reconciles = free_transfers_available(
+        season_history, chips_used_season, data.get("max_extra_free_transfers")
     )
 
     out = {
@@ -258,9 +317,17 @@ def main():
         "gameweeks": gameweeks,
         "squad": squad,
         "squad_risk_flags": squad_risk_flags(squad["picks"], team_trends) if squad else [],
+        "free_transfers_available": free_transfers,
         "free_transfers_note": (
-            "Not reliably exposed by the public FPL API -- tell Claude how "
-            "many free transfers and how much bank you have each week."
+            "Not exposed directly by any public FPL endpoint -- derived by "
+            "replaying transfer history (gameweek-by-gameweek transfers made "
+            "vs. hit cost charged, capped per max_extra_free_transfers). "
+            "Trust it unless free_transfers_reconciles is false, in which "
+            "case confirm the real number before recommending a hit."
+        ),
+        "free_transfers_reconciles": free_transfers_reconciles,
+        "chips_available": chips_available(
+            data.get("chip_windows"), chips_used_season, data.get("current_or_next_gameweek"), gameweeks_by_id
         ),
         "team_fixture_runs_best_to_worst": team_fixture_runs,
         "fixture_alerts": {
