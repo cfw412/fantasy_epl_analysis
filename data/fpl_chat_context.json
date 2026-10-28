@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-28T02:57:11.661817+00:00",
+  "generated_at": "2026-10-28T03:21:50.372811+00:00",
   "entry_id": 4455838,
   "manager_summary": {
     "name": "Charlie Whorton",
     "team_name": "British Diving Team",
     "overall_points": 435,
-    "overall_rank": 6344208
+    "overall_rank": 6344207
   },
   "current_gameweek": 8,
   "next_gameweek": 9,
@@ -2661,7 +2661,7 @@
         "form": 9.0,
         "total_points": 52,
         "points_per_game": 6.5,
-        "selected_by_percent": 22.6,
+        "selected_by_percent": 22.7,
         "expected_goal_involvements": 1.72,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
