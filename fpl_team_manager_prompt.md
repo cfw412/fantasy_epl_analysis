@@ -10,13 +10,36 @@ You are managing my Fantasy Premier League (FPL) team for the season.
 
 ## Current Status
 
-- **Gameweek:** 3
-- **Chips:** All chips available
-- **Free transfers:** 1
+Gameweek, squad, bank, and team value are all in the live data file (see
+Step 1) -- don't rely on a hardcoded gameweek number here, it goes stale.
+
+Chips and free transfers aren't reliably available from the public FPL API,
+so I'll tell you both at the start of each chat:
+
+- **Chips available:**
+- **Free transfers:**
 
 ## Step 1: Pull Fresh Data
 
-Read the `fpl_data.json` file in full.
+Read the `data/fpl_chat_context.json` file in full. It's a trimmed, chat-sized
+summary (squad, gameweek schedule/deadlines, team fixture runs, transfer
+candidates, last gameweek's review) with some of the cross-referencing
+already done for you:
+
+- `squad_risk_flags` -- squad players with an injury/status/news flag or a
+  toughening fixture run, already pulled out.
+- `fixture_trend` (on team fixture runs, squad picks, and transfer
+  candidates) -- near-term vs. 3-5-gameweeks-out average FDR, so a run
+  that's about to get easier or harder is visible without re-scanning
+  every fixture list by hand.
+- `fixture_alerts` -- double/blank gameweeks within the lookahead window
+  (usually empty outside congested periods).
+- `transfer_candidates_by_position` -- already shortlisted and ranked by
+  `outlook_score` (form + fixture-adjusted underlying stats, not just
+  recent form) instead of all ~700 players.
+
+Only fetch `fpl_data.json` (the full ~1MB player dump) if you need detail on
+a specific player who isn't in the squad or the transfer-candidate shortlist.
 
 ## Step 2: Research Current News
 
@@ -37,14 +60,14 @@ Your goal is to maximize total points across the rest of the season, not just ne
 
 ### Guidelines
 
-- **Fixture runs:** Identify players and teams entering a favorable fixture run using `team_fixture_runs_best_to_worst` and each player's `avg_fixture_difficulty_next_n`, even if the payoff is 2-4 gameweeks away.
-- **Transfer timing:** Plan when to make moves, not just which moves. If an acquisition is better made in 2 weeks (cheaper, better fixture start, or frees up budget from a player about to hit a hard run), say so explicitly and tell me when to pull the trigger.
+- **Fixture runs:** Use `fixture_trend` (near-term vs. 3-5-GWs-out avg FDR, already computed per team/player) to spot a run that's entering a favorable swing even if the payoff is 2-4 gameweeks away -- you shouldn't need to hand-scan the raw fixture lists for this.
+- **Transfer timing:** Plan when to make moves, not just which moves. If an acquisition is better made in 2 weeks (cheaper, better fixture start, or frees up budget from a player about to hit a hard run per `fixture_trend`), say so explicitly and tell me when to pull the trigger.
 - **Budget tracking:** Keep my team value and bank within the $100m cap across any multi-week plan, without assuming a sale I haven't accounted for.
 - **Hit threshold:** Recommend a -4 hit only when the expected point swing over the next 2-3 gameweeks clearly outweighs the penalty. Otherwise, recommend banking the free transfer.
-- **Risk flags:** Flag squad players trending toward a bad fixture swing or rotation/injury risk, even if no action is needed yet.
+- **Risk flags:** Start from `squad_risk_flags` (status/news/toughening fixtures, already pulled out per player), then confirm or extend each one with the Step 2 news search -- don't treat the precomputed list as the final word on its own.
 - **Wildcard:** Use it if I need an early roster reset, but remember I only have one for each half of the season.
 - **Free Hit:** Valuable later in the season, once European play picks up and some teams have no fixture in a given gameweek.
-- **Double gameweeks:** Look for these later on. Triple Captain and Bench Boost are most valuable here.
+- **Double gameweeks:** Check `fixture_alerts` for any double/blank gameweeks in the current lookahead window. Triple Captain and Bench Boost are most valuable in a double.
 
 ## Step 4: Report
 

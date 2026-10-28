@@ -453,7 +453,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 1
+        "squad_position": 1,
+        "fixture_trend": "steady"
       },
       {
         "id": 10,
@@ -508,7 +509,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 2
+        "squad_position": 2,
+        "fixture_trend": "toughening"
       },
       {
         "id": 115,
@@ -563,7 +565,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 3
+        "squad_position": 3,
+        "fixture_trend": "improving"
       },
       {
         "id": 504,
@@ -618,7 +621,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 4
+        "squad_position": 4,
+        "fixture_trend": "improving"
       },
       {
         "id": 173,
@@ -673,7 +677,8 @@
         "is_captain": false,
         "is_vice_captain": true,
         "multiplier": 2,
-        "squad_position": 5
+        "squad_position": 5,
+        "fixture_trend": "improving"
       },
       {
         "id": 15,
@@ -728,7 +733,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 6
+        "squad_position": 6,
+        "fixture_trend": "toughening"
       },
       {
         "id": 154,
@@ -783,7 +789,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 7
+        "squad_position": 7,
+        "fixture_trend": "improving"
       },
       {
         "id": 427,
@@ -838,7 +845,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 8
+        "squad_position": 8,
+        "fixture_trend": "steady"
       },
       {
         "id": 379,
@@ -893,7 +901,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 9
+        "squad_position": 9,
+        "fixture_trend": "steady"
       },
       {
         "id": 194,
@@ -948,7 +957,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 10
+        "squad_position": 10,
+        "fixture_trend": "improving"
       },
       {
         "id": 249,
@@ -1003,7 +1013,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
-        "squad_position": 11
+        "squad_position": 11,
+        "fixture_trend": "toughening"
       },
       {
         "id": 109,
@@ -1058,7 +1069,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 0,
-        "squad_position": 12
+        "squad_position": 12,
+        "fixture_trend": "improving"
       },
       {
         "id": 12,
@@ -1113,7 +1125,8 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 0,
-        "squad_position": 13
+        "squad_position": 13,
+        "fixture_trend": "toughening"
       },
       {
         "id": 426,
@@ -1168,7 +1181,8 @@
         "is_captain": true,
         "is_vice_captain": false,
         "multiplier": 0,
-        "squad_position": 14
+        "squad_position": 14,
+        "fixture_trend": "steady"
       },
       {
         "id": 330,
@@ -1223,10 +1237,60 @@
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 0,
-        "squad_position": 15
+        "squad_position": 15,
+        "fixture_trend": "toughening"
       }
     ]
   },
+  "squad_risk_flags": [
+    {
+      "name": "White",
+      "team": "ARS",
+      "reasons": [
+        "fixture run toughening (avg FDR 3.0 -> 3.33)"
+      ]
+    },
+    {
+      "name": "Thomas",
+      "team": "COV",
+      "reasons": [
+        "status=d",
+        "news: Unspecified injury - 75% chance of playing",
+        "chance_of_playing_next_round=75%"
+      ]
+    },
+    {
+      "name": "\u00d8degaard",
+      "team": "ARS",
+      "reasons": [
+        "fixture run toughening (avg FDR 3.0 -> 3.33)"
+      ]
+    },
+    {
+      "name": "Barry",
+      "team": "EVE",
+      "reasons": [
+        "fixture run toughening (avg FDR 2.5 -> 3.33)"
+      ]
+    },
+    {
+      "name": "Saka",
+      "team": "ARS",
+      "reasons": [
+        "status=i",
+        "news: Thigh injury - Unknown return date",
+        "chance_of_playing_next_round=0%",
+        "fixture run toughening (avg FDR 3.0 -> 3.33)"
+      ]
+    },
+    {
+      "name": "Bogle",
+      "team": "LEE",
+      "reasons": [
+        "fixture run toughening (avg FDR 2.5 -> 3.67)"
+      ]
+    }
+  ],
   "free_transfers_note": "Not reliably exposed by the public FPL API -- tell Claude how many free transfers and how much bank you have each week.",
   "team_fixture_runs_best_to_worst": [
     {
@@ -1264,7 +1328,12 @@
           "venue": "H",
           "fdr": 2
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 2.5,
+        "later_avg_fdr": 2.33,
+        "trend": "steady"
+      }
     },
     {
       "team": "COV",
@@ -1301,7 +1370,12 @@
           "venue": "H",
           "fdr": 2
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 2.33,
+        "trend": "improving"
+      }
     },
     {
       "team": "IPS",
@@ -1338,7 +1412,12 @@
           "venue": "A",
           "fdr": 2
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 2.5,
+        "later_avg_fdr": 2.67,
+        "trend": "steady"
+      }
     },
     {
       "team": "BOU",
@@ -1375,7 +1454,12 @@
           "venue": "H",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 2.5,
+        "later_avg_fdr": 3.0,
+        "trend": "toughening"
+      }
     },
     {
       "team": "AVL",
@@ -1412,7 +1496,12 @@
           "venue": "H",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 2.67,
+        "trend": "improving"
+      }
     },
     {
       "team": "CHE",
@@ -1449,7 +1538,12 @@
           "venue": "H",
           "fdr": 2
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 2.67,
+        "trend": "improving"
+      }
     },
     {
       "team": "SUN",
@@ -1486,7 +1580,12 @@
           "venue": "A",
           "fdr": 4
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 3.0,
+        "trend": "steady"
+      }
     },
     {
       "team": "CRY",
@@ -1523,7 +1622,12 @@
           "venue": "A",
           "fdr": 4
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 2.67,
+        "trend": "improving"
+      }
     },
     {
       "team": "EVE",
@@ -1560,7 +1664,12 @@
           "venue": "A",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 2.5,
+        "later_avg_fdr": 3.33,
+        "trend": "toughening"
+      }
     },
     {
       "team": "LEE",
@@ -1597,7 +1706,12 @@
           "venue": "A",
           "fdr": 5
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 2.5,
+        "later_avg_fdr": 3.67,
+        "trend": "toughening"
+      }
     },
     {
       "team": "NFO",
@@ -1634,7 +1748,12 @@
           "venue": "A",
           "fdr": 2
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 3.0,
+        "trend": "improving"
+      }
     },
     {
       "team": "HUL",
@@ -1671,7 +1790,12 @@
           "venue": "H",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 3.0,
+        "trend": "improving"
+      }
     },
     {
       "team": "MCI",
@@ -1708,7 +1832,12 @@
           "venue": "H",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 3.33,
+        "trend": "toughening"
+      }
     },
     {
       "team": "BHA",
@@ -1745,7 +1874,12 @@
           "venue": "A",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 4.0,
+        "later_avg_fdr": 2.67,
+        "trend": "improving"
+      }
     },
     {
       "team": "ARS",
@@ -1782,7 +1916,12 @@
           "venue": "A",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 3.33,
+        "trend": "toughening"
+      }
     },
     {
       "team": "MUN",
@@ -1819,7 +1958,12 @@
           "venue": "A",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 3.33,
+        "trend": "steady"
+      }
     },
     {
       "team": "FUL",
@@ -1856,7 +2000,12 @@
           "venue": "A",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 3.67,
+        "trend": "toughening"
+      }
     },
     {
       "team": "LIV",
@@ -1893,7 +2042,12 @@
           "venue": "H",
           "fdr": 3
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 3.33,
+        "trend": "steady"
+      }
     },
     {
       "team": "BRE",
@@ -1930,7 +2084,12 @@
           "venue": "H",
           "fdr": 4
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.5,
+        "later_avg_fdr": 3.67,
+        "trend": "steady"
+      }
     },
     {
       "team": "NEW",
@@ -1967,9 +2126,19 @@
           "venue": "H",
           "fdr": 4
         }
-      ]
+      ],
+      "fixture_trend": {
+        "near_term_avg_fdr": 3.0,
+        "later_avg_fdr": 4.0,
+        "trend": "toughening"
+      }
     }
   ],
+  "fixture_alerts": {
+    "note": "Double/blank gameweeks within the current lookahead window. Usually empty well in advance of the season's congested periods -- check back as the window the data pulls covers moves closer to any known blank/double round.",
+    "double_gameweeks": [],
+    "blank_gameweeks": []
+  },
   "transfer_candidates_note": "outlook_score is a forward-looking heuristic, not a verdict: recent form + underlying attacking rate (xG+xA per 90, shrunk toward a league-average rate for small minute samples so one big cameo can't dominate) + a bonus for an easy upcoming fixture run (avg_fixture_difficulty_next_n). It exists so a good fixture swing or strong xG/xA can surface a player even when recent form alone wouldn't. Combine with live news/press conference research before acting on it.",
   "transfer_candidates_by_position": {
     "GKP": [
@@ -2022,7 +2191,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 1,
-        "outlook_score": 6.72
+        "outlook_score": 6.72,
+        "fixture_trend": "toughening"
       },
       {
         "id": 250,
@@ -2073,7 +2243,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 5.71
+        "outlook_score": 5.71,
+        "fixture_trend": "toughening"
       },
       {
         "id": 597,
@@ -2124,7 +2295,8 @@
         ],
         "minutes": 630,
         "cost_change_event": 0,
-        "outlook_score": 5.46
+        "outlook_score": 5.46,
+        "fixture_trend": "improving"
       },
       {
         "id": 385,
@@ -2175,7 +2347,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 5.13
+        "outlook_score": 5.13,
+        "fixture_trend": "toughening"
       },
       {
         "id": 57,
@@ -2226,7 +2399,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 5.01
+        "outlook_score": 5.01,
+        "fixture_trend": "toughening"
       },
       {
         "id": 529,
@@ -2277,7 +2451,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 4.43
+        "outlook_score": 4.43,
+        "fixture_trend": "steady"
       },
       {
         "id": 384,
@@ -2328,7 +2503,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 4.11
+        "outlook_score": 4.11,
+        "fixture_trend": "toughening"
       },
       {
         "id": 567,
@@ -2379,7 +2555,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 3.71
+        "outlook_score": 3.71,
+        "fixture_trend": "toughening"
       },
       {
         "id": 300,
@@ -2430,7 +2607,8 @@
         ],
         "minutes": 360,
         "cost_change_event": 0,
-        "outlook_score": 3.57
+        "outlook_score": 3.57,
+        "fixture_trend": "steady"
       },
       {
         "id": 350,
@@ -2481,7 +2659,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 3.41
+        "outlook_score": 3.41,
+        "fixture_trend": "steady"
       },
       {
         "id": 572,
@@ -2532,7 +2711,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 3.11
+        "outlook_score": 3.11,
+        "fixture_trend": "improving"
       },
       {
         "id": 110,
@@ -2583,7 +2763,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 3.04
+        "outlook_score": 3.04,
+        "fixture_trend": "improving"
       },
       {
         "id": 412,
@@ -2634,7 +2815,8 @@
         ],
         "minutes": 720,
         "cost_change_event": -1,
-        "outlook_score": 2.45
+        "outlook_score": 2.45,
+        "fixture_trend": "steady"
       },
       {
         "id": 82,
@@ -2685,7 +2867,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 2.43
+        "outlook_score": 2.43,
+        "fixture_trend": "steady"
       },
       {
         "id": 467,
@@ -2736,7 +2919,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 2.43
+        "outlook_score": 2.43,
+        "fixture_trend": "improving"
       }
     ],
     "DEF": [
@@ -2789,7 +2973,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 10.97
+        "outlook_score": 10.97,
+        "fixture_trend": "toughening"
       },
       {
         "id": 31,
@@ -2840,7 +3025,8 @@
         ],
         "minutes": 551,
         "cost_change_event": 1,
-        "outlook_score": 10.19
+        "outlook_score": 10.19,
+        "fixture_trend": "toughening"
       },
       {
         "id": 60,
@@ -2891,7 +3077,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 8.28
+        "outlook_score": 8.28,
+        "fixture_trend": "toughening"
       },
       {
         "id": 566,
@@ -2942,7 +3129,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 7.51
+        "outlook_score": 7.51,
+        "fixture_trend": "toughening"
       },
       {
         "id": 112,
@@ -2993,7 +3181,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 7.1
+        "outlook_score": 7.1,
+        "fixture_trend": "steady"
       },
       {
         "id": 304,
@@ -3044,7 +3233,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 6.86
+        "outlook_score": 6.86,
+        "fixture_trend": "steady"
       },
       {
         "id": 257,
@@ -3095,7 +3285,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 0,
-        "outlook_score": 6.81
+        "outlook_score": 6.81,
+        "fixture_trend": "toughening"
       },
       {
         "id": 258,
@@ -3146,7 +3337,8 @@
         ],
         "minutes": 588,
         "cost_change_event": 0,
-        "outlook_score": 6.77
+        "outlook_score": 6.77,
+        "fixture_trend": "toughening"
       },
       {
         "id": 61,
@@ -3197,7 +3389,8 @@
         ],
         "minutes": 713,
         "cost_change_event": 0,
-        "outlook_score": 6.76
+        "outlook_score": 6.76,
+        "fixture_trend": "toughening"
       },
       {
         "id": 592,
@@ -3248,7 +3441,8 @@
         ],
         "minutes": 401,
         "cost_change_event": 0,
-        "outlook_score": 6.66
+        "outlook_score": 6.66,
+        "fixture_trend": "steady"
       },
       {
         "id": 148,
@@ -3299,7 +3493,8 @@
         ],
         "minutes": 412,
         "cost_change_event": 0,
-        "outlook_score": 6.61
+        "outlook_score": 6.61,
+        "fixture_trend": "improving"
       },
       {
         "id": 334,
@@ -3350,7 +3545,8 @@
         ],
         "minutes": 720,
         "cost_change_event": 1,
-        "outlook_score": 6.5
+        "outlook_score": 6.5,
+        "fixture_trend": "toughening"
       },
       {
         "id": 114,
@@ -3401,7 +3597,8 @@
         ],
         "minutes": 629,
         "cost_change_event": 0,
-        "outlook_score": 6.07
+        "outlook_score": 6.07,
+        "fixture_trend": "improving"
       },
       {
         "id": 332,
@@ -3452,7 +3649,8 @@
         ],
         "minutes": 708,
         "cost_change_event": 0,
-        "outlook_score": 6.01
+        "outlook_score": 6.01,
+        "fixture_trend": "toughening"
       },
       {
         "id": 502,
@@ -3503,7 +3701,8 @@
         ],
         "minutes": 498,
         "cost_change_event": -1,
-        "outlook_score": 5.97
+        "outlook_score": 5.97,
+        "fixture_trend": "steady"
       }
     ],
     "MID": [
@@ -3556,7 +3755,8 @@
         ],
         "minutes": 660,
         "cost_change_event": 2,
-        "outlook_score": 12.52
+        "outlook_score": 12.52,
+        "fixture_trend": "toughening"
       },
       {
         "id": 400,
@@ -3607,7 +3807,8 @@
         ],
         "minutes": 215,
         "cost_change_event": 0,
-        "outlook_score": 10.82
+        "outlook_score": 10.82,
+        "fixture_trend": "toughening"
       },
       {
         "id": 156,
@@ -3658,7 +3859,8 @@
         ],
         "minutes": 591,
         "cost_change_event": 1,
-        "outlook_score": 10.57
+        "outlook_score": 10.57,
+        "fixture_trend": "improving"
       },
       {
         "id": 53,
@@ -3709,7 +3911,8 @@
         ],
         "minutes": 319,
         "cost_change_event": 0,
-        "outlook_score": 9.85
+        "outlook_score": 9.85,
+        "fixture_trend": "improving"
       },
       {
         "id": 101,
@@ -3760,7 +3963,8 @@
         ],
         "minutes": 360,
         "cost_change_event": 0,
-        "outlook_score": 9.76
+        "outlook_score": 9.76,
+        "fixture_trend": "improving"
       },
       {
         "id": 398,
@@ -3811,7 +4015,8 @@
         ],
         "minutes": 338,
         "cost_change_event": 0,
-        "outlook_score": 9.68
+        "outlook_score": 9.68,
+        "fixture_trend": "toughening"
       },
       {
         "id": 261,
@@ -3862,7 +4067,8 @@
         ],
         "minutes": 657,
         "cost_change_event": 0,
-        "outlook_score": 9.66
+        "outlook_score": 9.66,
+        "fixture_trend": "toughening"
       },
       {
         "id": 183,
@@ -3913,7 +4119,8 @@
         ],
         "minutes": 555,
         "cost_change_event": 0,
-        "outlook_score": 9.61
+        "outlook_score": 9.61,
+        "fixture_trend": "improving"
       },
       {
         "id": 264,
@@ -3964,7 +4171,8 @@
         ],
         "minutes": 575,
         "cost_change_event": 0,
-        "outlook_score": 9.23
+        "outlook_score": 9.23,
+        "fixture_trend": "toughening"
       },
       {
         "id": 591,
@@ -4015,7 +4223,8 @@
         ],
         "minutes": 645,
         "cost_change_event": 0,
-        "outlook_score": 8.99
+        "outlook_score": 8.99,
+        "fixture_trend": "steady"
       },
       {
         "id": 123,
@@ -4066,7 +4275,8 @@
         ],
         "minutes": 127,
         "cost_change_event": 0,
-        "outlook_score": 8.74
+        "outlook_score": 8.74,
+        "fixture_trend": "improving"
       },
       {
         "id": 45,
@@ -4117,7 +4327,8 @@
         ],
         "minutes": 634,
         "cost_change_event": 0,
-        "outlook_score": 8.62
+        "outlook_score": 8.62,
+        "fixture_trend": "improving"
       },
       {
         "id": 483,
@@ -4168,7 +4379,8 @@
         ],
         "minutes": 527,
         "cost_change_event": 0,
-        "outlook_score": 8.61
+        "outlook_score": 8.61,
+        "fixture_trend": "improving"
       },
       {
         "id": 67,
@@ -4219,7 +4431,8 @@
         ],
         "minutes": 702,
         "cost_change_event": 0,
-        "outlook_score": 8.54
+        "outlook_score": 8.54,
+        "fixture_trend": "toughening"
       },
       {
         "id": 236,
@@ -4270,7 +4483,8 @@
         ],
         "minutes": 715,
         "cost_change_event": 0,
-        "outlook_score": 8.35
+        "outlook_score": 8.35,
+        "fixture_trend": "toughening"
       }
     ],
     "FWD": [
@@ -4323,7 +4537,8 @@
         ],
         "minutes": 709,
         "cost_change_event": 1,
-        "outlook_score": 15.72
+        "outlook_score": 15.72,
+        "fixture_trend": "toughening"
       },
       {
         "id": 79,
@@ -4374,7 +4589,8 @@
         ],
         "minutes": 678,
         "cost_change_event": 1,
-        "outlook_score": 12.91
+        "outlook_score": 12.91,
+        "fixture_trend": "toughening"
       },
       {
         "id": 166,
@@ -4425,7 +4641,8 @@
         ],
         "minutes": 547,
         "cost_change_event": 2,
-        "outlook_score": 11.77
+        "outlook_score": 11.77,
+        "fixture_trend": "improving"
       },
       {
         "id": 106,
@@ -4476,7 +4693,8 @@
         ],
         "minutes": 712,
         "cost_change_event": 0,
-        "outlook_score": 9.33
+        "outlook_score": 9.33,
+        "fixture_trend": "steady"
       },
       {
         "id": 346,
@@ -4527,7 +4745,8 @@
         ],
         "minutes": 683,
         "cost_change_event": 0,
-        "outlook_score": 8.26
+        "outlook_score": 8.26,
+        "fixture_trend": "toughening"
       },
       {
         "id": 138,
@@ -4578,7 +4797,8 @@
         ],
         "minutes": 572,
         "cost_change_event": 1,
-        "outlook_score": 8.15
+        "outlook_score": 8.15,
+        "fixture_trend": "improving"
       },
       {
         "id": 526,
@@ -4629,7 +4849,8 @@
         ],
         "minutes": 375,
         "cost_change_event": 0,
-        "outlook_score": 7.83
+        "outlook_score": 7.83,
+        "fixture_trend": "steady"
       },
       {
         "id": 640,
@@ -4680,7 +4901,8 @@
         ],
         "minutes": 121,
         "cost_change_event": 0,
-        "outlook_score": 7.55
+        "outlook_score": 7.55,
+        "fixture_trend": "steady"
       },
       {
         "id": 599,
@@ -4731,7 +4953,8 @@
         ],
         "minutes": 232,
         "cost_change_event": 0,
-        "outlook_score": 7.11
+        "outlook_score": 7.11,
+        "fixture_trend": "improving"
       },
       {
         "id": 569,
@@ -4782,7 +5005,8 @@
         ],
         "minutes": 668,
         "cost_change_event": -1,
-        "outlook_score": 6.61
+        "outlook_score": 6.61,
+        "fixture_trend": "toughening"
       },
       {
         "id": 401,
@@ -4833,7 +5057,8 @@
         ],
         "minutes": 513,
         "cost_change_event": 0,
-        "outlook_score": 6.47
+        "outlook_score": 6.47,
+        "fixture_trend": "steady"
       },
       {
         "id": 223,
@@ -4884,7 +5109,8 @@
         ],
         "minutes": 152,
         "cost_change_event": 0,
-        "outlook_score": 6.2
+        "outlook_score": 6.2,
+        "fixture_trend": "improving"
       },
       {
         "id": 295,
@@ -4935,7 +5161,8 @@
         ],
         "minutes": 706,
         "cost_change_event": 0,
-        "outlook_score": 6.19
+        "outlook_score": 6.19,
+        "fixture_trend": "improving"
       },
       {
         "id": 465,
@@ -4986,7 +5213,8 @@
         ],
         "minutes": 177,
         "cost_change_event": 0,
-        "outlook_score": 6.02
+        "outlook_score": 6.02,
+        "fixture_trend": "toughening"
       },
       {
         "id": 167,
@@ -5037,7 +5265,8 @@
         ],
         "minutes": 528,
         "cost_change_event": 0,
-        "outlook_score": 5.92
+        "outlook_score": 5.92,
+        "fixture_trend": "improving"
       }
     ]
   },
