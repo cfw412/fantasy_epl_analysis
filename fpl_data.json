@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:21:50.372811+00:00",
+  "generated_at": "2026-10-28T03:44:34.011803+00:00",
   "current_or_next_gameweek": 8,
   "current_gameweek": 8,
   "next_gameweek": 9,
@@ -425,8 +425,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 38269,
-        "transfers_out_event": 13608,
+        "transfers_in_event": 38304,
+        "transfers_out_event": 13613,
         "cost_change_event": -1,
         "upcoming_fixtures": [
           {
@@ -491,8 +491,8 @@
         "chance_of_playing_next_round": 100,
         "news": "",
         "news_added": "2026-09-20T19:30:08.247780Z",
-        "transfers_in_event": 31451,
-        "transfers_out_event": 6267,
+        "transfers_in_event": 31471,
+        "transfers_out_event": 6269,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -557,8 +557,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 106702,
-        "transfers_out_event": 30522,
+        "transfers_in_event": 106760,
+        "transfers_out_event": 30546,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -623,8 +623,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 60075,
-        "transfers_out_event": 14928,
+        "transfers_in_event": 60105,
+        "transfers_out_event": 14937,
         "cost_change_event": 1,
         "upcoming_fixtures": [
           {
@@ -689,8 +689,8 @@
         "chance_of_playing_next_round": 75,
         "news": "Unspecified injury - 75% chance of playing",
         "news_added": "2026-10-24T17:00:09.115906Z",
-        "transfers_in_event": 6885,
-        "transfers_out_event": 38941,
+        "transfers_in_event": 6889,
+        "transfers_out_event": 38985,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -755,8 +755,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 28221,
-        "transfers_out_event": 98722,
+        "transfers_in_event": 28236,
+        "transfers_out_event": 98779,
         "cost_change_event": -1,
         "upcoming_fixtures": [
           {
@@ -821,8 +821,8 @@
         "chance_of_playing_next_round": 100,
         "news": "",
         "news_added": "2026-09-21T13:00:09.022726Z",
-        "transfers_in_event": 48301,
-        "transfers_out_event": 160442,
+        "transfers_in_event": 48337,
+        "transfers_out_event": 160509,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -887,8 +887,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 57920,
-        "transfers_out_event": 80395,
+        "transfers_in_event": 57972,
+        "transfers_out_event": 80451,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -953,8 +953,8 @@
         "chance_of_playing_next_round": 100,
         "news": "",
         "news_added": "2026-09-27T10:30:09.051435Z",
-        "transfers_in_event": 297975,
-        "transfers_out_event": 18677,
+        "transfers_in_event": 298328,
+        "transfers_out_event": 18692,
         "cost_change_event": 1,
         "upcoming_fixtures": [
           {
@@ -1019,8 +1019,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 6561,
-        "transfers_out_event": 6484,
+        "transfers_in_event": 6568,
+        "transfers_out_event": 6489,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -1085,8 +1085,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 16117,
-        "transfers_out_event": 58605,
+        "transfers_in_event": 16126,
+        "transfers_out_event": 58638,
         "cost_change_event": -1,
         "upcoming_fixtures": [
           {
@@ -1151,8 +1151,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 26560,
-        "transfers_out_event": 31923,
+        "transfers_in_event": 26573,
+        "transfers_out_event": 31948,
         "cost_change_event": 0,
         "upcoming_fixtures": [
           {
@@ -1218,7 +1218,7 @@
         "news": "Thigh injury - Unknown return date",
         "news_added": "2026-10-21T20:30:09.540957Z",
         "transfers_in_event": 311,
-        "transfers_out_event": 215895,
+        "transfers_out_event": 215993,
         "cost_change_event": -1,
         "upcoming_fixtures": [
           {
@@ -1283,8 +1283,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 5653,
-        "transfers_out_event": 207504,
+        "transfers_in_event": 5655,
+        "transfers_out_event": 207627,
         "cost_change_event": -1,
         "upcoming_fixtures": [
           {
@@ -1349,8 +1349,8 @@
         "chance_of_playing_next_round": null,
         "news": "",
         "news_added": null,
-        "transfers_in_event": 56373,
-        "transfers_out_event": 18054,
+        "transfers_in_event": 56405,
+        "transfers_out_event": 18069,
         "cost_change_event": 1,
         "upcoming_fixtures": [
           {
@@ -2161,8 +2161,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 65444,
-      "transfers_out_event": 19201,
+      "transfers_in_event": 65479,
+      "transfers_out_event": 19232,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -2347,8 +2347,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 158250,
-      "transfers_out_event": 13752,
+      "transfers_in_event": 158350,
+      "transfers_out_event": 13767,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -2409,8 +2409,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-23T12:01:23.272929Z",
-      "transfers_in_event": 7674,
-      "transfers_out_event": 6547,
+      "transfers_in_event": 7676,
+      "transfers_out_event": 6552,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -2534,7 +2534,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 572,
-      "transfers_out_event": 1607,
+      "transfers_out_event": 1610,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -2595,8 +2595,8 @@
       "chance_of_playing_next_round": 75,
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-24T18:30:08.735545Z",
-      "transfers_in_event": 19318,
-      "transfers_out_event": 280175,
+      "transfers_in_event": 19321,
+      "transfers_out_event": 280416,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -2719,8 +2719,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-20T19:30:08.247780Z",
-      "transfers_in_event": 31451,
-      "transfers_out_event": 6267,
+      "transfers_in_event": 31471,
+      "transfers_out_event": 6269,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -2782,7 +2782,7 @@
       "news": "",
       "news_added": "2026-09-04T14:00:08.080310Z",
       "transfers_in_event": 362,
-      "transfers_out_event": 4239,
+      "transfers_out_event": 4240,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -2844,7 +2844,7 @@
       "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-21T20:30:09.540957Z",
       "transfers_in_event": 311,
-      "transfers_out_event": 215895,
+      "transfers_out_event": 215993,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -2905,8 +2905,8 @@
       "chance_of_playing_next_round": 75,
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-28T00:00:08.477333Z",
-      "transfers_in_event": 70134,
-      "transfers_out_event": 18616,
+      "transfers_in_event": 70140,
+      "transfers_out_event": 18677,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -2967,8 +2967,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4616,
-      "transfers_out_event": 2986,
+      "transfers_in_event": 4617,
+      "transfers_out_event": 2987,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -3029,8 +3029,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 28221,
-      "transfers_out_event": 98722,
+      "transfers_in_event": 28236,
+      "transfers_out_event": 98779,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -3091,8 +3091,8 @@
       "chance_of_playing_next_round": 75,
       "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-10-28T00:00:08.492716Z",
-      "transfers_in_event": 4930,
-      "transfers_out_event": 1695,
+      "transfers_in_event": 4931,
+      "transfers_out_event": 1698,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -3587,8 +3587,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3641,
-      "transfers_out_event": 6919,
+      "transfers_in_event": 3642,
+      "transfers_out_event": 6922,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -3649,8 +3649,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-24T22:00:09.120308Z",
-      "transfers_in_event": 7482,
-      "transfers_out_event": 43653,
+      "transfers_in_event": 7494,
+      "transfers_out_event": 43677,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -3773,8 +3773,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-05T09:30:09.853316Z",
-      "transfers_in_event": 181600,
-      "transfers_out_event": 9153,
+      "transfers_in_event": 181692,
+      "transfers_out_event": 9172,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -3835,8 +3835,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-04T14:00:08.328779Z",
-      "transfers_in_event": 8265,
-      "transfers_out_event": 11984,
+      "transfers_in_event": 8269,
+      "transfers_out_event": 11990,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -3898,7 +3898,7 @@
       "news": "Hamstring injury - Expected back 1 Nov",
       "news_added": "2026-10-02T15:00:11.091226Z",
       "transfers_in_event": 159,
-      "transfers_out_event": 27636,
+      "transfers_out_event": 27644,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4083,8 +4083,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-09T14:30:08.192142Z",
-      "transfers_in_event": 15025,
-      "transfers_out_event": 6178,
+      "transfers_in_event": 15032,
+      "transfers_out_event": 6184,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -4145,8 +4145,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1033,
-      "transfers_out_event": 1085,
+      "transfers_in_event": 1034,
+      "transfers_out_event": 1086,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4332,7 +4332,7 @@
       "news": "",
       "news_added": "2026-09-12T18:00:08.729468Z",
       "transfers_in_event": 1684,
-      "transfers_out_event": 462,
+      "transfers_out_event": 463,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4393,8 +4393,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9303,
-      "transfers_out_event": 1385,
+      "transfers_in_event": 9305,
+      "transfers_out_event": 1389,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4456,7 +4456,7 @@
       "news": "Has joined Getafe on loan for the rest of the season",
       "news_added": "2026-10-21T13:24:48.628998Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 9068,
+      "transfers_out_event": 9073,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4518,7 +4518,7 @@
       "news": "Has joined Rangers on loan for the rest of the season",
       "news_added": "2026-08-19T13:56:46.385411Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 197,
+      "transfers_out_event": 200,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4579,8 +4579,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4793,
-      "transfers_out_event": 6926,
+      "transfers_in_event": 4796,
+      "transfers_out_event": 6931,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4703,8 +4703,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 42932,
-      "transfers_out_event": 5246,
+      "transfers_in_event": 42958,
+      "transfers_out_event": 5253,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -4765,7 +4765,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-16T17:30:09.276181Z",
-      "transfers_in_event": 886,
+      "transfers_in_event": 889,
       "transfers_out_event": 754,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -4827,8 +4827,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-23T12:01:23.337269Z",
-      "transfers_in_event": 4253,
-      "transfers_out_event": 1202,
+      "transfers_in_event": 4254,
+      "transfers_out_event": 1204,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -5014,7 +5014,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 391,
-      "transfers_out_event": 1551,
+      "transfers_out_event": 1552,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -5076,7 +5076,7 @@
       "news": "",
       "news_added": "2026-10-10T18:00:10.386738Z",
       "transfers_in_event": 743,
-      "transfers_out_event": 4425,
+      "transfers_out_event": 4429,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -5199,8 +5199,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-17T19:30:09.768277Z",
-      "transfers_in_event": 144649,
-      "transfers_out_event": 6457,
+      "transfers_in_event": 144746,
+      "transfers_out_event": 6462,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -5324,7 +5324,7 @@
       "news": "Has joined Al Hilal permanently",
       "news_added": "2026-09-01T13:15:16.698799Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 2181,
+      "transfers_out_event": 2182,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -5447,7 +5447,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 320,
+      "transfers_in_event": 321,
       "transfers_out_event": 772,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -5509,8 +5509,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 771099,
-      "transfers_out_event": 6675,
+      "transfers_in_event": 771922,
+      "transfers_out_event": 6676,
       "cost_change_event": 2,
       "upcoming_fixtures": [
         {
@@ -5695,8 +5695,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 46542,
-      "transfers_out_event": 3224,
+      "transfers_in_event": 46565,
+      "transfers_out_event": 3226,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -5943,7 +5943,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-09T09:30:08.229436Z",
-      "transfers_in_event": 325,
+      "transfers_in_event": 326,
       "transfers_out_event": 119,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -6067,7 +6067,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2166,
+      "transfers_in_event": 2169,
       "transfers_out_event": 524,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -6130,7 +6130,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 3163,
-      "transfers_out_event": 1365,
+      "transfers_out_event": 1367,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -6191,8 +6191,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 8649,
-      "transfers_out_event": 3223,
+      "transfers_in_event": 8659,
+      "transfers_out_event": 3224,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -6254,7 +6254,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 3045,
-      "transfers_out_event": 4440,
+      "transfers_out_event": 4446,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -6377,8 +6377,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 44039,
-      "transfers_out_event": 2575,
+      "transfers_in_event": 44088,
+      "transfers_out_event": 2579,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -6439,8 +6439,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 19422,
-      "transfers_out_event": 3118,
+      "transfers_in_event": 19431,
+      "transfers_out_event": 3119,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -6811,8 +6811,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 31335,
-      "transfers_out_event": 3134,
+      "transfers_in_event": 31363,
+      "transfers_out_event": 3140,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -6873,8 +6873,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 578871,
-      "transfers_out_event": 5667,
+      "transfers_in_event": 579298,
+      "transfers_out_event": 5669,
       "cost_change_event": 2,
       "upcoming_fixtures": [
         {
@@ -6936,7 +6936,7 @@
       "news": "Thigh injury - Expected back 8 Nov",
       "news_added": "2026-10-05T09:30:09.910752Z",
       "transfers_in_event": 181,
-      "transfers_out_event": 18898,
+      "transfers_out_event": 18905,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -6997,8 +6997,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-20T15:30:09.074071Z",
-      "transfers_in_event": 7711,
-      "transfers_out_event": 1293,
+      "transfers_in_event": 7717,
+      "transfers_out_event": 1294,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -7183,8 +7183,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-15T16:30:07.029928Z",
-      "transfers_in_event": 892,
-      "transfers_out_event": 810,
+      "transfers_in_event": 895,
+      "transfers_out_event": 811,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -7307,7 +7307,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-24T17:30:10.035483Z",
-      "transfers_in_event": 232,
+      "transfers_in_event": 233,
       "transfers_out_event": 213,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -7493,7 +7493,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-29T17:30:09.796802Z",
-      "transfers_in_event": 11231,
+      "transfers_in_event": 11239,
       "transfers_out_event": 900,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -7555,8 +7555,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 256644,
-      "transfers_out_event": 13303,
+      "transfers_in_event": 257106,
+      "transfers_out_event": 13311,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -7679,8 +7679,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-15T16:30:07.054142Z",
-      "transfers_in_event": 1140,
-      "transfers_out_event": 575,
+      "transfers_in_event": 1141,
+      "transfers_out_event": 578,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -7741,8 +7741,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 23380,
-      "transfers_out_event": 1526,
+      "transfers_in_event": 23411,
+      "transfers_out_event": 1528,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -7865,7 +7865,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 366,
+      "transfers_in_event": 368,
       "transfers_out_event": 546,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -7989,8 +7989,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 8164,
-      "transfers_out_event": 10092,
+      "transfers_in_event": 8174,
+      "transfers_out_event": 10099,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8176,7 +8176,7 @@
       "news": "",
       "news_added": "2026-08-15T15:30:06.416627Z",
       "transfers_in_event": 556,
-      "transfers_out_event": 180,
+      "transfers_out_event": 181,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8237,8 +8237,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 8294,
-      "transfers_out_event": 5000,
+      "transfers_in_event": 8301,
+      "transfers_out_event": 5009,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8299,8 +8299,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7775,
-      "transfers_out_event": 8050,
+      "transfers_in_event": 7786,
+      "transfers_out_event": 8057,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8361,8 +8361,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 5243,
-      "transfers_out_event": 12955,
+      "transfers_in_event": 5254,
+      "transfers_out_event": 12961,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8671,8 +8671,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-10T16:30:08.848962Z",
-      "transfers_in_event": 46470,
-      "transfers_out_event": 51692,
+      "transfers_in_event": 46499,
+      "transfers_out_event": 51732,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8733,7 +8733,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2337,
+      "transfers_in_event": 2340,
       "transfers_out_event": 671,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -8796,7 +8796,7 @@
       "news": "",
       "news_added": "2026-10-03T19:30:08.141728Z",
       "transfers_in_event": 381,
-      "transfers_out_event": 823,
+      "transfers_out_event": 824,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -8919,8 +8919,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-17T16:30:09.272910Z",
-      "transfers_in_event": 676,
-      "transfers_out_event": 13860,
+      "transfers_in_event": 677,
+      "transfers_out_event": 13868,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9106,7 +9106,7 @@
       "news": "Suspended until 8 Nov",
       "news_added": "2026-10-17T15:00:07.992801Z",
       "transfers_in_event": 60,
-      "transfers_out_event": 4535,
+      "transfers_out_event": 4537,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9291,8 +9291,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 27697,
-      "transfers_out_event": 27767,
+      "transfers_in_event": 27755,
+      "transfers_out_event": 27782,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9354,7 +9354,7 @@
       "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-09-14T14:00:09.985723Z",
       "transfers_in_event": 83,
-      "transfers_out_event": 3995,
+      "transfers_out_event": 3998,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9415,8 +9415,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 522,
-      "transfers_out_event": 912,
+      "transfers_in_event": 523,
+      "transfers_out_event": 913,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9477,8 +9477,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1986,
-      "transfers_out_event": 23961,
+      "transfers_in_event": 1988,
+      "transfers_out_event": 23986,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9725,7 +9725,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 675,
+      "transfers_in_event": 676,
       "transfers_out_event": 288,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -9787,8 +9787,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 26560,
-      "transfers_out_event": 31923,
+      "transfers_in_event": 26573,
+      "transfers_out_event": 31948,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9849,8 +9849,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1731,
-      "transfers_out_event": 6695,
+      "transfers_in_event": 1732,
+      "transfers_out_event": 6696,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9912,7 +9912,7 @@
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-25T17:30:09.883815Z",
       "transfers_in_event": 2340,
-      "transfers_out_event": 8305,
+      "transfers_out_event": 8312,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -9973,8 +9973,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2842,
-      "transfers_out_event": 1989,
+      "transfers_in_event": 2844,
+      "transfers_out_event": 1991,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10035,8 +10035,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 106702,
-      "transfers_out_event": 30522,
+      "transfers_in_event": 106760,
+      "transfers_out_event": 30546,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10097,8 +10097,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-22T09:30:09.629652Z",
-      "transfers_in_event": 2401,
-      "transfers_out_event": 3476,
+      "transfers_in_event": 2402,
+      "transfers_out_event": 3477,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10284,7 +10284,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 93,
-      "transfers_out_event": 93,
+      "transfers_out_event": 94,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10532,7 +10532,7 @@
       "news": "",
       "news_added": "2026-08-27T19:30:07.780933Z",
       "transfers_in_event": 2668,
-      "transfers_out_event": 1769,
+      "transfers_out_event": 1770,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10593,8 +10593,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 100078,
-      "transfers_out_event": 55945,
+      "transfers_in_event": 100133,
+      "transfers_out_event": 55995,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10655,7 +10655,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-26T16:00:07.608056Z",
-      "transfers_in_event": 1109,
+      "transfers_in_event": 1110,
       "transfers_out_event": 2571,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -10779,8 +10779,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 17353,
-      "transfers_out_event": 11951,
+      "transfers_in_event": 17362,
+      "transfers_out_event": 11957,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10903,8 +10903,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-30T18:00:07.935334Z",
-      "transfers_in_event": 8326,
-      "transfers_out_event": 2410,
+      "transfers_in_event": 8328,
+      "transfers_out_event": 2412,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -10966,7 +10966,7 @@
       "news": "Knee injury - 75% chance of playing",
       "news_added": "2026-09-04T09:30:08.612904Z",
       "transfers_in_event": 19,
-      "transfers_out_event": 400,
+      "transfers_out_event": 401,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -11337,8 +11337,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 54474,
-      "transfers_out_event": 58394,
+      "transfers_in_event": 54502,
+      "transfers_out_event": 58430,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -11523,8 +11523,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 60075,
-      "transfers_out_event": 14928,
+      "transfers_in_event": 60105,
+      "transfers_out_event": 14937,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -11585,7 +11585,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 885,
+      "transfers_in_event": 887,
       "transfers_out_event": 959,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -11709,8 +11709,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4881,
-      "transfers_out_event": 19478,
+      "transfers_in_event": 4886,
+      "transfers_out_event": 19494,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -11771,7 +11771,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 153,
+      "transfers_in_event": 154,
       "transfers_out_event": 198,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -12082,7 +12082,7 @@
       "news": "Head injury - Unknown return date",
       "news_added": "2026-10-17T13:30:08.724000Z",
       "transfers_in_event": 196,
-      "transfers_out_event": 26828,
+      "transfers_out_event": 26843,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -12143,8 +12143,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 109852,
-      "transfers_out_event": 48054,
+      "transfers_in_event": 109931,
+      "transfers_out_event": 48076,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -12205,8 +12205,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-09T09:30:07.136250Z",
-      "transfers_in_event": 20013,
-      "transfers_out_event": 6620,
+      "transfers_in_event": 20031,
+      "transfers_out_event": 6626,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -12267,8 +12267,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-20T14:00:07.949090Z",
-      "transfers_in_event": 2614,
-      "transfers_out_event": 2987,
+      "transfers_in_event": 2621,
+      "transfers_out_event": 2989,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -12454,7 +12454,7 @@
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-10-10T13:30:08.699019Z",
       "transfers_in_event": 67,
-      "transfers_out_event": 20058,
+      "transfers_out_event": 20069,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -12578,7 +12578,7 @@
       "news": "",
       "news_added": "2026-10-17T18:30:09.695564Z",
       "transfers_in_event": 419,
-      "transfers_out_event": 2014,
+      "transfers_out_event": 2016,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -12763,8 +12763,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 5493,
-      "transfers_out_event": 1645,
+      "transfers_in_event": 5498,
+      "transfers_out_event": 1649,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -12825,8 +12825,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2001,
-      "transfers_out_event": 1730,
+      "transfers_in_event": 2003,
+      "transfers_out_event": 1731,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -12949,7 +12949,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1336,
+      "transfers_in_event": 1337,
       "transfers_out_event": 751,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -13012,7 +13012,7 @@
       "news": "",
       "news_added": "2026-08-24T18:30:07.421239Z",
       "transfers_in_event": 363,
-      "transfers_out_event": 1442,
+      "transfers_out_event": 1443,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -13073,8 +13073,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-21T13:00:09.022726Z",
-      "transfers_in_event": 48301,
-      "transfers_out_event": 160442,
+      "transfers_in_event": 48337,
+      "transfers_out_event": 160509,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -13135,8 +13135,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 68925,
-      "transfers_out_event": 11118,
+      "transfers_in_event": 68970,
+      "transfers_out_event": 11129,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -13321,8 +13321,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-30T16:00:08.393562Z",
-      "transfers_in_event": 2600,
-      "transfers_out_event": 1861,
+      "transfers_in_event": 2602,
+      "transfers_out_event": 1864,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -13384,7 +13384,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 107,
-      "transfers_out_event": 775,
+      "transfers_out_event": 776,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -13569,8 +13569,8 @@
       "chance_of_playing_next_round": 0,
       "news": "Thigh injury - Unknown return date",
       "news_added": "2026-10-24T16:30:09.687729Z",
-      "transfers_in_event": 25272,
-      "transfers_out_event": 809054,
+      "transfers_in_event": 25273,
+      "transfers_out_event": 810644,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -13755,7 +13755,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-09T15:00:09.063849Z",
-      "transfers_in_event": 190,
+      "transfers_in_event": 192,
       "transfers_out_event": 268,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -13817,8 +13817,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9886,
-      "transfers_out_event": 11347,
+      "transfers_in_event": 9893,
+      "transfers_out_event": 11355,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -13879,7 +13879,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2533,
+      "transfers_in_event": 2536,
       "transfers_out_event": 1239,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -14066,7 +14066,7 @@
       "news": "Unspecified injury - Expected back 31 Oct",
       "news_added": "2026-10-17T12:00:10.154091Z",
       "transfers_in_event": 22,
-      "transfers_out_event": 1276,
+      "transfers_out_event": 1277,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14189,7 +14189,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2022,
+      "transfers_in_event": 2023,
       "transfers_out_event": 140,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -14251,8 +14251,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 796,
-      "transfers_out_event": 299,
+      "transfers_in_event": 801,
+      "transfers_out_event": 300,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14314,7 +14314,7 @@
       "news": "",
       "news_added": "2026-09-15T09:00:07.851220Z",
       "transfers_in_event": 86,
-      "transfers_out_event": 203,
+      "transfers_out_event": 204,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14375,8 +14375,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1087,
-      "transfers_out_event": 2134,
+      "transfers_in_event": 1091,
+      "transfers_out_event": 2137,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14561,8 +14561,8 @@
       "chance_of_playing_next_round": 75,
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-24T17:00:09.115906Z",
-      "transfers_in_event": 6885,
-      "transfers_out_event": 38941,
+      "transfers_in_event": 6889,
+      "transfers_out_event": 38985,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14624,7 +14624,7 @@
       "news": "Has joined Sheffield United on loan for the rest of the season",
       "news_added": "2026-09-02T16:21:03.612394Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 606,
+      "transfers_out_event": 607,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14685,8 +14685,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-19T16:00:09.486751Z",
-      "transfers_in_event": 10232,
-      "transfers_out_event": 17033,
+      "transfers_in_event": 10239,
+      "transfers_out_event": 17043,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14747,8 +14747,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2445,
-      "transfers_out_event": 3993,
+      "transfers_in_event": 2449,
+      "transfers_out_event": 3995,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -14810,7 +14810,7 @@
       "news": "",
       "news_added": "2026-08-27T14:56:28.704361Z",
       "transfers_in_event": 363,
-      "transfers_out_event": 199,
+      "transfers_out_event": 200,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -15181,8 +15181,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-23T12:01:23.481435Z",
-      "transfers_in_event": 8574,
-      "transfers_out_event": 2601,
+      "transfers_in_event": 8580,
+      "transfers_out_event": 2609,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -15243,7 +15243,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 446,
+      "transfers_in_event": 447,
       "transfers_out_event": 397,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -15368,7 +15368,7 @@
       "news": "",
       "news_added": "2026-08-19T18:00:08.310507Z",
       "transfers_in_event": 49,
-      "transfers_out_event": 175,
+      "transfers_out_event": 176,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -15492,7 +15492,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 14,
-      "transfers_out_event": 144,
+      "transfers_out_event": 145,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -15740,7 +15740,7 @@
       "news": "Has joined Oxford United on loan for the rest of the season",
       "news_added": "2026-08-29T00:35:59.998520Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 623,
+      "transfers_out_event": 624,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -15863,8 +15863,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 6561,
-      "transfers_out_event": 6484,
+      "transfers_in_event": 6568,
+      "transfers_out_event": 6489,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -15925,8 +15925,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2116,
-      "transfers_out_event": 4190,
+      "transfers_in_event": 2117,
+      "transfers_out_event": 4192,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -16297,8 +16297,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 5055,
-      "transfers_out_event": 3438,
+      "transfers_in_event": 5059,
+      "transfers_out_event": 3439,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -16359,8 +16359,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1219,
-      "transfers_out_event": 798,
+      "transfers_in_event": 1220,
+      "transfers_out_event": 799,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -16670,7 +16670,7 @@
       "news": "Foot injury - 75% chance of playing",
       "news_added": "2026-09-12T14:00:09.378740Z",
       "transfers_in_event": 53,
-      "transfers_out_event": 2601,
+      "transfers_out_event": 2602,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -16793,8 +16793,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 493,
-      "transfers_out_event": 1412,
+      "transfers_in_event": 497,
+      "transfers_out_event": 1414,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -16917,8 +16917,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1281,
-      "transfers_out_event": 18380,
+      "transfers_in_event": 1282,
+      "transfers_out_event": 18401,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -17227,8 +17227,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-23T12:01:23.498963Z",
-      "transfers_in_event": 506,
-      "transfers_out_event": 1903,
+      "transfers_in_event": 507,
+      "transfers_out_event": 1907,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -17351,8 +17351,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 15148,
-      "transfers_out_event": 21069,
+      "transfers_in_event": 15153,
+      "transfers_out_event": 21082,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -17476,7 +17476,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 2219,
-      "transfers_out_event": 3168,
+      "transfers_out_event": 3171,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -17972,7 +17972,7 @@
       "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-10-23T17:00:09.672494Z",
       "transfers_in_event": 104,
-      "transfers_out_event": 7040,
+      "transfers_out_event": 7045,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -18033,8 +18033,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-28T21:00:08.020382Z",
-      "transfers_in_event": 3898,
-      "transfers_out_event": 1987,
+      "transfers_in_event": 3899,
+      "transfers_out_event": 1989,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -18220,7 +18220,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 43,
-      "transfers_out_event": 136,
+      "transfers_out_event": 137,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -18406,7 +18406,7 @@
       "news": "",
       "news_added": "2026-10-04T22:00:08.963040Z",
       "transfers_in_event": 275,
-      "transfers_out_event": 1166,
+      "transfers_out_event": 1167,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -18592,7 +18592,7 @@
       "news": "",
       "news_added": "2026-10-15T20:30:08.876514Z",
       "transfers_in_event": 167,
-      "transfers_out_event": 848,
+      "transfers_out_event": 849,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -18901,8 +18901,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 8614,
-      "transfers_out_event": 15400,
+      "transfers_in_event": 8619,
+      "transfers_out_event": 15412,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19087,8 +19087,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 62808,
-      "transfers_out_event": 34400,
+      "transfers_in_event": 62854,
+      "transfers_out_event": 34425,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19149,8 +19149,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-16T17:00:07.929499Z",
-      "transfers_in_event": 4404,
-      "transfers_out_event": 7788,
+      "transfers_in_event": 4405,
+      "transfers_out_event": 7791,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19273,7 +19273,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 336,
+      "transfers_in_event": 337,
       "transfers_out_event": 387,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -19336,7 +19336,7 @@
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-24T19:00:09.907289Z",
       "transfers_in_event": 983,
-      "transfers_out_event": 17106,
+      "transfers_out_event": 17121,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19521,8 +19521,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 33278,
-      "transfers_out_event": 18105,
+      "transfers_in_event": 33296,
+      "transfers_out_event": 18123,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19584,7 +19584,7 @@
       "news": "Illness - 75% chance of playing",
       "news_added": "2026-10-24T14:30:09.610430Z",
       "transfers_in_event": 592,
-      "transfers_out_event": 3807,
+      "transfers_out_event": 3809,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19646,7 +19646,7 @@
       "news": "",
       "news_added": "2026-09-06T18:00:08.301702Z",
       "transfers_in_event": 937,
-      "transfers_out_event": 870,
+      "transfers_out_event": 871,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -19707,8 +19707,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 647,
-      "transfers_out_event": 2797,
+      "transfers_in_event": 648,
+      "transfers_out_event": 2799,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -20141,8 +20141,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 16117,
-      "transfers_out_event": 58605,
+      "transfers_in_event": 16126,
+      "transfers_out_event": 58638,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -20204,7 +20204,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 702,
-      "transfers_out_event": 5372,
+      "transfers_out_event": 5374,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -20327,8 +20327,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9663,
-      "transfers_out_event": 7998,
+      "transfers_in_event": 9665,
+      "transfers_out_event": 8010,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -20575,8 +20575,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-09T11:30:11.109085Z",
-      "transfers_in_event": 2510,
-      "transfers_out_event": 2652,
+      "transfers_in_event": 2513,
+      "transfers_out_event": 2654,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -20761,8 +20761,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7536,
-      "transfers_out_event": 3243,
+      "transfers_in_event": 7544,
+      "transfers_out_event": 3249,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -20823,8 +20823,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3363,
-      "transfers_out_event": 3325,
+      "transfers_in_event": 3364,
+      "transfers_out_event": 3329,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -20885,8 +20885,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7884,
-      "transfers_out_event": 6542,
+      "transfers_in_event": 7887,
+      "transfers_out_event": 6551,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -21071,8 +21071,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9466,
-      "transfers_out_event": 1348,
+      "transfers_in_event": 9476,
+      "transfers_out_event": 1351,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -21134,7 +21134,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 269,
-      "transfers_out_event": 816,
+      "transfers_out_event": 817,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -21257,8 +21257,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7186,
-      "transfers_out_event": 31377,
+      "transfers_in_event": 7187,
+      "transfers_out_event": 31402,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -21381,8 +21381,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3585,
-      "transfers_out_event": 3544,
+      "transfers_in_event": 3593,
+      "transfers_out_event": 3545,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -21443,8 +21443,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 570,
-      "transfers_out_event": 1452,
+      "transfers_in_event": 572,
+      "transfers_out_event": 1454,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -21505,8 +21505,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 10689,
-      "transfers_out_event": 27128,
+      "transfers_in_event": 10693,
+      "transfers_out_event": 27139,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -21568,7 +21568,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 2751,
-      "transfers_out_event": 96765,
+      "transfers_out_event": 96811,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -21816,7 +21816,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 552,
-      "transfers_out_event": 1900,
+      "transfers_out_event": 1901,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -22002,7 +22002,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 907,
-      "transfers_out_event": 2934,
+      "transfers_out_event": 2938,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -22125,7 +22125,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 592,
+      "transfers_in_event": 593,
       "transfers_out_event": 1537,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -22373,8 +22373,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 12991,
-      "transfers_out_event": 11747,
+      "transfers_in_event": 13011,
+      "transfers_out_event": 11752,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -22497,8 +22497,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-22T17:30:07.668197Z",
-      "transfers_in_event": 10601,
-      "transfers_out_event": 26985,
+      "transfers_in_event": 10611,
+      "transfers_out_event": 27007,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -22560,7 +22560,7 @@
       "news": "",
       "news_added": "2026-08-29T16:30:08.151841Z",
       "transfers_in_event": 761,
-      "transfers_out_event": 1137,
+      "transfers_out_event": 1140,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -22684,7 +22684,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 2230,
-      "transfers_out_event": 7032,
+      "transfers_out_event": 7033,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -22931,8 +22931,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 52864,
-      "transfers_out_event": 17353,
+      "transfers_in_event": 52921,
+      "transfers_out_event": 17371,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -23056,7 +23056,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 201,
-      "transfers_out_event": 761,
+      "transfers_out_event": 762,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -23118,7 +23118,7 @@
       "news": "",
       "news_added": "2026-08-29T15:00:08.569326Z",
       "transfers_in_event": 2463,
-      "transfers_out_event": 2586,
+      "transfers_out_event": 2589,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -23179,8 +23179,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7887,
-      "transfers_out_event": 17608,
+      "transfers_in_event": 7892,
+      "transfers_out_event": 17622,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -23489,8 +23489,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7393,
-      "transfers_out_event": 6853,
+      "transfers_in_event": 7401,
+      "transfers_out_event": 6859,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -23676,7 +23676,7 @@
       "news": "Has joined Konyaspor permanently",
       "news_added": "2026-08-17T13:50:27.145733Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 614,
+      "transfers_out_event": 615,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -23985,8 +23985,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 19194,
-      "transfers_out_event": 15532,
+      "transfers_in_event": 19210,
+      "transfers_out_event": 15547,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -24048,7 +24048,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 38,
-      "transfers_out_event": 115,
+      "transfers_out_event": 116,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -24234,7 +24234,7 @@
       "news": "Groin injury - Expected back 31 Oct",
       "news_added": "2026-10-16T12:30:09.976274Z",
       "transfers_in_event": 131,
-      "transfers_out_event": 32008,
+      "transfers_out_event": 32028,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -24543,8 +24543,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-21T08:30:09.561308Z",
-      "transfers_in_event": 4664,
-      "transfers_out_event": 1268,
+      "transfers_in_event": 4666,
+      "transfers_out_event": 1269,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -24729,8 +24729,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 8046,
-      "transfers_out_event": 25794,
+      "transfers_in_event": 8052,
+      "transfers_out_event": 25815,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -24916,7 +24916,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 1313,
-      "transfers_out_event": 5498,
+      "transfers_out_event": 5501,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -24977,7 +24977,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 347,
+      "transfers_in_event": 348,
       "transfers_out_event": 588,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -25101,8 +25101,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9602,
-      "transfers_out_event": 6319,
+      "transfers_in_event": 9606,
+      "transfers_out_event": 6325,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -25163,8 +25163,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 5729,
-      "transfers_out_event": 16930,
+      "transfers_in_event": 5734,
+      "transfers_out_event": 16938,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -25226,7 +25226,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 516,
-      "transfers_out_event": 2442,
+      "transfers_out_event": 2443,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -25845,8 +25845,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-31T09:30:08.306145Z",
-      "transfers_in_event": 5291,
-      "transfers_out_event": 25489,
+      "transfers_in_event": 5292,
+      "transfers_out_event": 25500,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -26094,7 +26094,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 780,
-      "transfers_out_event": 5687,
+      "transfers_out_event": 5690,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -26155,8 +26155,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3613,
-      "transfers_out_event": 22280,
+      "transfers_in_event": 3616,
+      "transfers_out_event": 22291,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -26279,8 +26279,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 523,
-      "transfers_out_event": 2965,
+      "transfers_in_event": 524,
+      "transfers_out_event": 2967,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -26651,8 +26651,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-22T18:00:07.551930Z",
-      "transfers_in_event": 16031,
-      "transfers_out_event": 1801,
+      "transfers_in_event": 16037,
+      "transfers_out_event": 1806,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -26714,7 +26714,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 2645,
-      "transfers_out_event": 1802,
+      "transfers_out_event": 1803,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -26837,7 +26837,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 504,
+      "transfers_in_event": 505,
       "transfers_out_event": 228,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -26962,7 +26962,7 @@
       "news": "",
       "news_added": "2026-09-18T13:30:09.626858Z",
       "transfers_in_event": 744,
-      "transfers_out_event": 2662,
+      "transfers_out_event": 2665,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -27024,7 +27024,7 @@
       "news": "Has joined Torino on loan for the rest of the season",
       "news_added": "2026-09-01T13:12:39.210133Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 372,
+      "transfers_out_event": 373,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -27086,7 +27086,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 616,
-      "transfers_out_event": 1248,
+      "transfers_out_event": 1249,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -27209,8 +27209,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 56373,
-      "transfers_out_event": 18054,
+      "transfers_in_event": 56405,
+      "transfers_out_event": 18069,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -27271,7 +27271,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-08T20:00:07.546568Z",
-      "transfers_in_event": 522,
+      "transfers_in_event": 524,
       "transfers_out_event": 290,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -27333,8 +27333,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 8917,
-      "transfers_out_event": 3936,
+      "transfers_in_event": 8925,
+      "transfers_out_event": 3939,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -27457,8 +27457,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 30426,
-      "transfers_out_event": 5269,
+      "transfers_in_event": 30450,
+      "transfers_out_event": 5280,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -27519,8 +27519,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-23T13:00:09.404908Z",
-      "transfers_in_event": 1065,
-      "transfers_out_event": 13689,
+      "transfers_in_event": 1068,
+      "transfers_out_event": 13693,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -27581,7 +27581,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-23T13:00:09.421868Z",
-      "transfers_in_event": 454,
+      "transfers_in_event": 456,
       "transfers_out_event": 3405,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -27705,8 +27705,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 663,
-      "transfers_out_event": 2309,
+      "transfers_in_event": 664,
+      "transfers_out_event": 2312,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -28078,7 +28078,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 850,
-      "transfers_out_event": 1106,
+      "transfers_out_event": 1112,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -28139,8 +28139,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-23T13:00:09.444671Z",
-      "transfers_in_event": 25298,
-      "transfers_out_event": 172160,
+      "transfers_in_event": 25344,
+      "transfers_out_event": 172207,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -28202,7 +28202,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 882,
-      "transfers_out_event": 1781,
+      "transfers_out_event": 1782,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -28325,7 +28325,7 @@
       "chance_of_playing_next_round": 0,
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-07-29T18:00:10.338170Z",
-      "transfers_in_event": 107,
+      "transfers_in_event": 108,
       "transfers_out_event": 253,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -28387,8 +28387,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 18181,
-      "transfers_out_event": 7586,
+      "transfers_in_event": 18204,
+      "transfers_out_event": 7593,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -28883,8 +28883,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 5005,
-      "transfers_out_event": 7785,
+      "transfers_in_event": 5010,
+      "transfers_out_event": 7787,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29007,8 +29007,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 345,
-      "transfers_out_event": 1254,
+      "transfers_in_event": 346,
+      "transfers_out_event": 1255,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29194,7 +29194,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 131,
-      "transfers_out_event": 212,
+      "transfers_out_event": 213,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29255,8 +29255,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 18204,
-      "transfers_out_event": 21709,
+      "transfers_in_event": 18222,
+      "transfers_out_event": 21718,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29318,7 +29318,7 @@
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-17T15:30:09.979166Z",
       "transfers_in_event": 46,
-      "transfers_out_event": 7391,
+      "transfers_out_event": 7394,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29379,8 +29379,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1113,
-      "transfers_out_event": 3856,
+      "transfers_in_event": 1115,
+      "transfers_out_event": 3858,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29442,7 +29442,7 @@
       "news": "",
       "news_added": "2026-07-26T08:30:10.078473Z",
       "transfers_in_event": 213,
-      "transfers_out_event": 148,
+      "transfers_out_event": 149,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29627,8 +29627,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-06T00:30:10.323830Z",
-      "transfers_in_event": 19535,
-      "transfers_out_event": 8073,
+      "transfers_in_event": 19551,
+      "transfers_out_event": 8082,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29875,8 +29875,8 @@
       "chance_of_playing_next_round": 75,
       "news": "Ankle injury - 75% chance of playing",
       "news_added": "2026-10-25T17:00:09.888666Z",
-      "transfers_in_event": 14646,
-      "transfers_out_event": 17747,
+      "transfers_in_event": 14649,
+      "transfers_out_event": 17766,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29937,8 +29937,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-27T21:30:07.786183Z",
-      "transfers_in_event": 24882,
-      "transfers_out_event": 15789,
+      "transfers_in_event": 24896,
+      "transfers_out_event": 15803,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -29999,8 +29999,8 @@
       "chance_of_playing_next_round": 0,
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-10-17T15:00:08.293301Z",
-      "transfers_in_event": 452,
-      "transfers_out_event": 153717,
+      "transfers_in_event": 453,
+      "transfers_out_event": 153800,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -30061,8 +30061,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3208,
-      "transfers_out_event": 2190,
+      "transfers_in_event": 3209,
+      "transfers_out_event": 2192,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -30186,7 +30186,7 @@
       "news": "",
       "news_added": "2026-10-11T17:00:08.994657Z",
       "transfers_in_event": 1881,
-      "transfers_out_event": 1666,
+      "transfers_out_event": 1669,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -30247,8 +30247,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4173,
-      "transfers_out_event": 3408,
+      "transfers_in_event": 4175,
+      "transfers_out_event": 3415,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -30558,7 +30558,7 @@
       "news": "Knee injury - 25% chance of playing",
       "news_added": "2026-10-20T18:30:09.999223Z",
       "transfers_in_event": 232,
-      "transfers_out_event": 13527,
+      "transfers_out_event": 13530,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -30681,8 +30681,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-27T10:30:09.051435Z",
-      "transfers_in_event": 297975,
-      "transfers_out_event": 18677,
+      "transfers_in_event": 298328,
+      "transfers_out_event": 18692,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -30806,7 +30806,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 268,
-      "transfers_out_event": 780,
+      "transfers_out_event": 782,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -30991,8 +30991,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 34697,
-      "transfers_out_event": 5424,
+      "transfers_in_event": 34725,
+      "transfers_out_event": 5428,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31053,8 +31053,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 62853,
-      "transfers_out_event": 9633,
+      "transfers_in_event": 62872,
+      "transfers_out_event": 9640,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -31115,8 +31115,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9090,
-      "transfers_out_event": 14455,
+      "transfers_in_event": 9097,
+      "transfers_out_event": 14461,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31177,8 +31177,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 26947,
-      "transfers_out_event": 12126,
+      "transfers_in_event": 26961,
+      "transfers_out_event": 12138,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31239,8 +31239,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 7732,
-      "transfers_out_event": 22768,
+      "transfers_in_event": 7736,
+      "transfers_out_event": 22787,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31363,8 +31363,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-19T15:30:09.078291Z",
-      "transfers_in_event": 4915,
-      "transfers_out_event": 25789,
+      "transfers_in_event": 4920,
+      "transfers_out_event": 25798,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -31425,8 +31425,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9352,
-      "transfers_out_event": 72543,
+      "transfers_in_event": 9355,
+      "transfers_out_event": 72581,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31488,7 +31488,7 @@
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-19T15:30:09.094655Z",
       "transfers_in_event": 129,
-      "transfers_out_event": 4097,
+      "transfers_out_event": 4099,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31549,8 +31549,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4552,
-      "transfers_out_event": 5176,
+      "transfers_in_event": 4553,
+      "transfers_out_event": 5178,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31611,8 +31611,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 30880,
-      "transfers_out_event": 94339,
+      "transfers_in_event": 30917,
+      "transfers_out_event": 94387,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -31674,7 +31674,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 208,
-      "transfers_out_event": 806,
+      "transfers_out_event": 808,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31736,7 +31736,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 1248,
-      "transfers_out_event": 2126,
+      "transfers_out_event": 2128,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -31984,7 +31984,7 @@
       "news": "Knee injury - Unknown return date",
       "news_added": "2026-10-17T17:30:09.977110Z",
       "transfers_in_event": 270,
-      "transfers_out_event": 131575,
+      "transfers_out_event": 131629,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -32045,8 +32045,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-13T17:00:09.433455Z",
-      "transfers_in_event": 17016,
-      "transfers_out_event": 10170,
+      "transfers_in_event": 17020,
+      "transfers_out_event": 10178,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -32107,8 +32107,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 118103,
-      "transfers_out_event": 191845,
+      "transfers_in_event": 118142,
+      "transfers_out_event": 191947,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -32169,8 +32169,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-18T17:00:08.385597Z",
-      "transfers_in_event": 65728,
-      "transfers_out_event": 11651,
+      "transfers_in_event": 65749,
+      "transfers_out_event": 11660,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -32665,8 +32665,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-19T13:00:10.543876Z",
-      "transfers_in_event": 79272,
-      "transfers_out_event": 5690,
+      "transfers_in_event": 79337,
+      "transfers_out_event": 5706,
       "cost_change_event": 1,
       "upcoming_fixtures": [
         {
@@ -32727,8 +32727,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-23T17:00:07.952697Z",
-      "transfers_in_event": 6811,
-      "transfers_out_event": 12731,
+      "transfers_in_event": 6815,
+      "transfers_out_event": 12738,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -32852,7 +32852,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 811,
-      "transfers_out_event": 1187,
+      "transfers_out_event": 1189,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33099,8 +33099,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 480,
-      "transfers_out_event": 329,
+      "transfers_in_event": 481,
+      "transfers_out_event": 330,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33162,7 +33162,7 @@
       "news": "",
       "news_added": "2026-07-23T12:01:23.321726Z",
       "transfers_in_event": 1494,
-      "transfers_out_event": 6800,
+      "transfers_out_event": 6802,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33223,8 +33223,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-06T16:00:10.997714Z",
-      "transfers_in_event": 1542,
-      "transfers_out_event": 1657,
+      "transfers_in_event": 1543,
+      "transfers_out_event": 1658,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33409,8 +33409,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1524,
-      "transfers_out_event": 35962,
+      "transfers_in_event": 1525,
+      "transfers_out_event": 35980,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -33596,7 +33596,7 @@
       "news": "Hamstring injury - Expected back 25 Oct",
       "news_added": "2026-09-27T21:30:07.831640Z",
       "transfers_in_event": 18,
-      "transfers_out_event": 1424,
+      "transfers_out_event": 1425,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33719,8 +33719,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 780,
-      "transfers_out_event": 4581,
+      "transfers_in_event": 782,
+      "transfers_out_event": 4586,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33781,8 +33781,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1337,
-      "transfers_out_event": 29456,
+      "transfers_in_event": 1339,
+      "transfers_out_event": 29473,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -33843,8 +33843,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-18T16:30:09.955038Z",
-      "transfers_in_event": 359,
-      "transfers_out_event": 4823,
+      "transfers_in_event": 360,
+      "transfers_out_event": 4824,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -33906,7 +33906,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 524,
-      "transfers_out_event": 1137,
+      "transfers_out_event": 1138,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -34092,7 +34092,7 @@
       "news": "Unspecified injury - Unknown return date",
       "news_added": "2026-10-12T21:30:08.995810Z",
       "transfers_in_event": 85,
-      "transfers_out_event": 45608,
+      "transfers_out_event": 45632,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -34277,8 +34277,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 5653,
-      "transfers_out_event": 207504,
+      "transfers_in_event": 5655,
+      "transfers_out_event": 207627,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -34339,8 +34339,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 57920,
-      "transfers_out_event": 80395,
+      "transfers_in_event": 57972,
+      "transfers_out_event": 80451,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -34401,8 +34401,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3977,
-      "transfers_out_event": 40514,
+      "transfers_in_event": 3979,
+      "transfers_out_event": 40537,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -34464,7 +34464,7 @@
       "news": "Hip injury - 75% chance of playing",
       "news_added": "2026-10-20T20:00:09.925594Z",
       "transfers_in_event": 174,
-      "transfers_out_event": 7578,
+      "transfers_out_event": 7579,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -34588,7 +34588,7 @@
       "news": "",
       "news_added": "2026-08-22T11:00:08.617283Z",
       "transfers_in_event": 983,
-      "transfers_out_event": 918,
+      "transfers_out_event": 920,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -34650,7 +34650,7 @@
       "news": "Unspecified injury - Expected back 8 Nov",
       "news_added": "2026-10-12T21:30:09.006287Z",
       "transfers_in_event": 136,
-      "transfers_out_event": 10540,
+      "transfers_out_event": 10545,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35021,8 +35021,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 234,
-      "transfers_out_event": 870,
+      "transfers_in_event": 235,
+      "transfers_out_event": 872,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35084,7 +35084,7 @@
       "news": "Shin injury - Unknown return date",
       "news_added": "2026-09-20T19:30:08.505755Z",
       "transfers_in_event": 97,
-      "transfers_out_event": 5543,
+      "transfers_out_event": 5547,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35145,8 +35145,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1080,
-      "transfers_out_event": 1652,
+      "transfers_in_event": 1081,
+      "transfers_out_event": 1653,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35332,7 +35332,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 483,
-      "transfers_out_event": 1305,
+      "transfers_out_event": 1306,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35517,8 +35517,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 892,
-      "transfers_out_event": 8275,
+      "transfers_in_event": 894,
+      "transfers_out_event": 8282,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35641,8 +35641,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1842,
-      "transfers_out_event": 2914,
+      "transfers_in_event": 1843,
+      "transfers_out_event": 2917,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35703,7 +35703,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-23T18:00:08.367241Z",
-      "transfers_in_event": 1579,
+      "transfers_in_event": 1581,
       "transfers_out_event": 643,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -35765,8 +35765,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 31576,
-      "transfers_out_event": 29263,
+      "transfers_in_event": 31607,
+      "transfers_out_event": 29279,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -35951,8 +35951,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 31682,
-      "transfers_out_event": 18694,
+      "transfers_in_event": 31710,
+      "transfers_out_event": 18706,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36013,8 +36013,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-14T20:00:09.505598Z",
-      "transfers_in_event": 2113,
-      "transfers_out_event": 5993,
+      "transfers_in_event": 2114,
+      "transfers_out_event": 5994,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36137,7 +36137,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 470,
+      "transfers_in_event": 471,
       "transfers_out_event": 306,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -36262,7 +36262,7 @@
       "news": "Muscular injury - 75% chance of playing",
       "news_added": "2026-10-27T16:00:07.981816Z",
       "transfers_in_event": 102,
-      "transfers_out_event": 252,
+      "transfers_out_event": 253,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36324,7 +36324,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 833,
-      "transfers_out_event": 2409,
+      "transfers_out_event": 2410,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36447,7 +36447,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 55,
+      "transfers_in_event": 56,
       "transfers_out_event": 248,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -36510,7 +36510,7 @@
       "news": "Has joined Juventus on loan for the rest of the season",
       "news_added": "2026-09-02T16:07:16.549304Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 596,
+      "transfers_out_event": 597,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36571,8 +36571,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 6975,
-      "transfers_out_event": 130355,
+      "transfers_in_event": 6983,
+      "transfers_out_event": 130414,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -36633,8 +36633,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-25T19:00:08.004915Z",
-      "transfers_in_event": 5537,
-      "transfers_out_event": 583,
+      "transfers_in_event": 5542,
+      "transfers_out_event": 584,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36696,7 +36696,7 @@
       "news": "Has joined Wolves on loan for the rest of the season",
       "news_added": "2026-09-04T12:37:43.515176Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 1616,
+      "transfers_out_event": 1617,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36819,8 +36819,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1423,
-      "transfers_out_event": 2550,
+      "transfers_in_event": 1425,
+      "transfers_out_event": 2551,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -36881,8 +36881,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-17T14:30:09.823731Z",
-      "transfers_in_event": 2942,
-      "transfers_out_event": 2463,
+      "transfers_in_event": 2946,
+      "transfers_out_event": 2465,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37005,8 +37005,8 @@
       "chance_of_playing_next_round": 75,
       "news": "Illness - 75% chance of playing",
       "news_added": "2026-10-23T14:30:10.429365Z",
-      "transfers_in_event": 50,
-      "transfers_out_event": 1682,
+      "transfers_in_event": 51,
+      "transfers_out_event": 1683,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37191,8 +37191,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1940,
-      "transfers_out_event": 2139,
+      "transfers_in_event": 1941,
+      "transfers_out_event": 2140,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37377,8 +37377,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3781,
-      "transfers_out_event": 20198,
+      "transfers_in_event": 3783,
+      "transfers_out_event": 20204,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37439,8 +37439,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4690,
-      "transfers_out_event": 7292,
+      "transfers_in_event": 4693,
+      "transfers_out_event": 7295,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37501,8 +37501,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1143,
-      "transfers_out_event": 3559,
+      "transfers_in_event": 1144,
+      "transfers_out_event": 3560,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37626,7 +37626,7 @@
       "news": "Arm injury - 75% chance of playing",
       "news_added": "2026-10-24T00:00:10.181593Z",
       "transfers_in_event": 3013,
-      "transfers_out_event": 23552,
+      "transfers_out_event": 23569,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37750,7 +37750,7 @@
       "news": "",
       "news_added": "2026-09-12T14:00:09.705107Z",
       "transfers_in_event": 624,
-      "transfers_out_event": 848,
+      "transfers_out_event": 849,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37811,8 +37811,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-23T12:01:23.801183Z",
-      "transfers_in_event": 4020,
-      "transfers_out_event": 7022,
+      "transfers_in_event": 4021,
+      "transfers_out_event": 7029,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37874,7 +37874,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 308,
-      "transfers_out_event": 8928,
+      "transfers_out_event": 8934,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -37935,7 +37935,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-12T14:00:09.724349Z",
-      "transfers_in_event": 211,
+      "transfers_in_event": 212,
       "transfers_out_event": 300,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -38307,8 +38307,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-16T17:30:09.546992Z",
-      "transfers_in_event": 17930,
-      "transfers_out_event": 63095,
+      "transfers_in_event": 17946,
+      "transfers_out_event": 63138,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -38431,8 +38431,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1412,
-      "transfers_out_event": 3658,
+      "transfers_in_event": 1414,
+      "transfers_out_event": 3661,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -38617,8 +38617,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 472,
-      "transfers_out_event": 286,
+      "transfers_in_event": 473,
+      "transfers_out_event": 287,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -38741,7 +38741,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-28T09:30:07.471668Z",
-      "transfers_in_event": 465,
+      "transfers_in_event": 466,
       "transfers_out_event": 1113,
       "cost_change_event": -1,
       "upcoming_fixtures": [
@@ -38803,8 +38803,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-17T20:30:08.195072Z",
-      "transfers_in_event": 896,
-      "transfers_out_event": 3496,
+      "transfers_in_event": 898,
+      "transfers_out_event": 3499,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -38928,7 +38928,7 @@
       "news": "Calf injury - Unknown return date",
       "news_added": "2026-10-09T14:30:11.491800Z",
       "transfers_in_event": 56,
-      "transfers_out_event": 9093,
+      "transfers_out_event": 9097,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39113,7 +39113,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 615,
+      "transfers_in_event": 616,
       "transfers_out_event": 1746,
       "cost_change_event": -1,
       "upcoming_fixtures": [
@@ -39237,8 +39237,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-30T16:00:09.552205Z",
-      "transfers_in_event": 81153,
-      "transfers_out_event": 7061,
+      "transfers_in_event": 81222,
+      "transfers_out_event": 7065,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39361,8 +39361,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-19T22:30:08.721497Z",
-      "transfers_in_event": 32332,
-      "transfers_out_event": 7325,
+      "transfers_in_event": 32379,
+      "transfers_out_event": 7327,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39424,7 +39424,7 @@
       "news": "Muscular injury - Expected back 7 Nov",
       "news_added": "2026-10-18T13:00:09.266321Z",
       "transfers_in_event": 47,
-      "transfers_out_event": 8556,
+      "transfers_out_event": 8560,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39485,8 +39485,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-14T14:30:07.387706Z",
-      "transfers_in_event": 17040,
-      "transfers_out_event": 3568,
+      "transfers_in_event": 17051,
+      "transfers_out_event": 3573,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39609,8 +39609,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 877,
-      "transfers_out_event": 1287,
+      "transfers_in_event": 878,
+      "transfers_out_event": 1288,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39671,8 +39671,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 38269,
-      "transfers_out_event": 13608,
+      "transfers_in_event": 38304,
+      "transfers_out_event": 13613,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -39733,8 +39733,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 6005,
-      "transfers_out_event": 25916,
+      "transfers_in_event": 6013,
+      "transfers_out_event": 25938,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39795,8 +39795,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3111,
-      "transfers_out_event": 6939,
+      "transfers_in_event": 3113,
+      "transfers_out_event": 6943,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39857,8 +39857,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-19T12:00:08.823872Z",
-      "transfers_in_event": 10874,
-      "transfers_out_event": 5563,
+      "transfers_in_event": 10881,
+      "transfers_out_event": 5566,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -39981,8 +39981,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-19T22:30:08.861525Z",
-      "transfers_in_event": 14069,
-      "transfers_out_event": 3115,
+      "transfers_in_event": 14080,
+      "transfers_out_event": 3118,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -40043,8 +40043,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-21T15:00:07.610517Z",
-      "transfers_in_event": 16636,
-      "transfers_out_event": 4887,
+      "transfers_in_event": 16655,
+      "transfers_out_event": 4888,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -40291,8 +40291,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3478,
-      "transfers_out_event": 2529,
+      "transfers_in_event": 3479,
+      "transfers_out_event": 2531,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -40539,8 +40539,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-07-23T12:01:23.848657Z",
-      "transfers_in_event": 39079,
-      "transfers_out_event": 2620,
+      "transfers_in_event": 39108,
+      "transfers_out_event": 2621,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -40663,8 +40663,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 18952,
-      "transfers_out_event": 1033,
+      "transfers_in_event": 18960,
+      "transfers_out_event": 1036,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -40726,7 +40726,7 @@
       "news": "Unspecified injury - 75% chance of playing",
       "news_added": "2026-10-24T19:00:10.113555Z",
       "transfers_in_event": 4326,
-      "transfers_out_event": 4100,
+      "transfers_out_event": 4101,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -40974,7 +40974,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 337,
-      "transfers_out_event": 610,
+      "transfers_out_event": 611,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -41159,8 +41159,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 527,
-      "transfers_out_event": 486,
+      "transfers_in_event": 528,
+      "transfers_out_event": 487,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -41284,7 +41284,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 289,
-      "transfers_out_event": 2726,
+      "transfers_out_event": 2728,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -41345,7 +41345,7 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 4722,
+      "transfers_in_event": 4723,
       "transfers_out_event": 950,
       "cost_change_event": -1,
       "upcoming_fixtures": [
@@ -41407,8 +41407,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 9485,
-      "transfers_out_event": 9972,
+      "transfers_in_event": 9490,
+      "transfers_out_event": 9981,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -41470,7 +41470,7 @@
       "news": "not included in squad.",
       "news_added": "2026-09-04T12:32:39.183614Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 867,
+      "transfers_out_event": 868,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -41779,8 +41779,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3002,
-      "transfers_out_event": 3576,
+      "transfers_in_event": 3013,
+      "transfers_out_event": 3578,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -41966,7 +41966,7 @@
       "news": "Hamstring injury - Unknown return date",
       "news_added": "2026-09-25T21:30:10.370384Z",
       "transfers_in_event": 20,
-      "transfers_out_event": 7849,
+      "transfers_out_event": 7854,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -42027,8 +42027,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-08-09T08:30:05.954750Z",
-      "transfers_in_event": 4694,
-      "transfers_out_event": 4229,
+      "transfers_in_event": 4698,
+      "transfers_out_event": 4230,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -42089,8 +42089,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 1718,
-      "transfers_out_event": 5599,
+      "transfers_in_event": 1725,
+      "transfers_out_event": 5600,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -42213,7 +42213,7 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-09-12T21:30:09.421687Z",
-      "transfers_in_event": 620,
+      "transfers_in_event": 622,
       "transfers_out_event": 343,
       "cost_change_event": 0,
       "upcoming_fixtures": [
@@ -42276,7 +42276,7 @@
       "news": "Has joined Swansea City on loan for the rest of the season",
       "news_added": "2026-08-29T00:34:52.425076Z",
       "transfers_in_event": 0,
-      "transfers_out_event": 10,
+      "transfers_out_event": 11,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -42399,8 +42399,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3728,
-      "transfers_out_event": 4646,
+      "transfers_in_event": 3732,
+      "transfers_out_event": 4648,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -42524,7 +42524,7 @@
       "news": "Groin injury - 75% chance of playing",
       "news_added": "2026-10-10T16:30:09.200467Z",
       "transfers_in_event": 35,
-      "transfers_out_event": 1063,
+      "transfers_out_event": 1064,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -42585,8 +42585,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 3938,
-      "transfers_out_event": 8511,
+      "transfers_in_event": 3940,
+      "transfers_out_event": 8517,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -42709,8 +42709,8 @@
       "chance_of_playing_next_round": null,
       "news": "",
       "news_added": null,
-      "transfers_in_event": 2124,
-      "transfers_out_event": 8997,
+      "transfers_in_event": 2129,
+      "transfers_out_event": 9001,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -43144,7 +43144,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 223,
-      "transfers_out_event": 349,
+      "transfers_out_event": 350,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -43205,8 +43205,8 @@
       "chance_of_playing_next_round": 100,
       "news": "",
       "news_added": "2026-10-19T11:00:09.674071Z",
-      "transfers_in_event": 13362,
-      "transfers_out_event": 29313,
+      "transfers_in_event": 13394,
+      "transfers_out_event": 29320,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
@@ -43268,7 +43268,7 @@
       "news": "Knock - 50% chance of playing",
       "news_added": "2026-10-15T16:30:07.851112Z",
       "transfers_in_event": 80,
-      "transfers_out_event": 8539,
+      "transfers_out_event": 8540,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -43392,7 +43392,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 304,
-      "transfers_out_event": 596,
+      "transfers_out_event": 597,
       "cost_change_event": -1,
       "upcoming_fixtures": [
         {
@@ -43516,7 +43516,7 @@
       "news": "",
       "news_added": null,
       "transfers_in_event": 2288,
-      "transfers_out_event": 5064,
+      "transfers_out_event": 5068,
       "cost_change_event": 0,
       "upcoming_fixtures": [
         {
