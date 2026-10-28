@@ -66,6 +66,38 @@ def current_or_next_event(events):
     return latest_finished_event(events)
 
 
+def current_event_id(events):
+    for e in events:
+        if e.get("is_current"):
+            return e["id"]
+    return None
+
+
+def next_event_id(events):
+    for e in events:
+        if e.get("is_next"):
+            return e["id"]
+    return None
+
+
+def summarize_gameweeks(events):
+    """Per-gameweek deadline/finished/data_checked status, so a downstream
+    report can tell whether a pre- or post-gameweek write-up is due."""
+    return [
+        {
+            "id": e["id"],
+            "deadline_time": e.get("deadline_time"),
+            "finished": e.get("finished", False),
+            "data_checked": e.get("data_checked", False),
+            "is_current": e.get("is_current", False),
+            "is_next": e.get("is_next", False),
+            "average_entry_score": e.get("average_entry_score"),
+            "highest_score": e.get("highest_score"),
+        }
+        for e in events
+    ]
+
+
 def fetch_picks(team_id, event_id):
     try:
         return get(f"{BASE}/entry/{team_id}/event/{event_id}/picks/")
@@ -212,7 +244,7 @@ def summarize_squad(picks_data, players_by_id, bootstrap):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--team-id", type=int, required=True, help="Your FPL entry/team ID")
+    ap.add_argument("--team-id", type=int, default=4455838, help="Your FPL entry/team ID")
     ap.add_argument("--lookahead", type=int, default=5, help="Number of future fixtures to include per player")
     ap.add_argument("--out", type=str, default="fpl_data.json")
     args = ap.parse_args()
@@ -247,9 +279,12 @@ def main():
         print(f"Warning: could not fetch entry {args.team_id}: {e}", file=sys.stderr)
 
     output = {
-        "pulled_at_utc": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(timezone.utc).isoformat(),
         "current_or_next_gameweek": entry_event,
+        "current_gameweek": current_event_id(events),
+        "next_gameweek": next_event_id(events),
         "last_finished_gameweek": last_finished,
+        "gameweeks": summarize_gameweeks(events),
         "team_id": args.team_id,
         "manager_summary": {
             "name": f"{entry_info.get('player_first_name','')} {entry_info.get('player_last_name','')}".strip()

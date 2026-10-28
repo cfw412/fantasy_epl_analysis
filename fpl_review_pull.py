@@ -4,6 +4,7 @@
 Stdlib only. Uses the public FPL API (no login needed for these endpoints).
 """
 import json
+import sys
 import time
 import urllib.request
 from datetime import datetime, timezone
@@ -50,6 +51,31 @@ def main():
         def name(pid):
             return players[pid]["web_name"]
 
+        pick_rows = [
+            {
+                "name": name(p["element"]),
+                "team": teams[players[p["element"]]["team"]],
+                "pos": POS[players[p["element"]]["element_type"]],
+                "squad_position": p["position"],
+                "starter": p["position"] <= 11,
+                "multiplier": p["multiplier"],
+                "captain": p["is_captain"],
+                "vice_captain": p["is_vice_captain"],
+                "stats": live.get(p["element"], {}),
+                "points_counted": live.get(p["element"], {}).get("total_points", 0)
+                * p["multiplier"],
+            }
+            for p in picks["picks"]
+        ]
+
+        points_counted_total = sum(p["points_counted"] for p in pick_rows)
+        captain_row = next((p for p in pick_rows if p["captain"]), None)
+        vice_captain_row = next((p for p in pick_rows if p["vice_captain"]), None)
+        # entry_history.points is the gross score (before any transfer-hit
+        # deduction); the hit itself is tracked separately in
+        # event_transfers_cost and is not subtracted from "points".
+        entry_history_points = picks["entry_history"]["points"]
+
         out.update(
             {
                 "gameweek": gw,
@@ -60,6 +86,12 @@ def main():
                 "entry_history": picks["entry_history"],
                 "active_chip": picks["active_chip"],
                 "chips_used_season": history["chips"],
+                "captain": captain_row["name"] if captain_row else None,
+                "vice_captain": vice_captain_row["name"] if vice_captain_row else None,
+                "bench_points": picks["entry_history"].get("points_on_bench"),
+                "points_counted_total": points_counted_total,
+                "transfer_cost": picks["entry_history"].get("event_transfers_cost", 0),
+                "reconciles_with_entry_history": points_counted_total == entry_history_points,
                 "automatic_subs": [
                     {"in": name(s["element_in"]), "out": name(s["element_out"])}
                     for s in picks["automatic_subs"]
@@ -73,25 +105,17 @@ def main():
                     }
                     for t in transfers
                 ],
-                "picks": [
-                    {
-                        "name": name(p["element"]),
-                        "team": teams[players[p["element"]]["team"]],
-                        "pos": POS[players[p["element"]]["element_type"]],
-                        "squad_position": p["position"],
-                        "starter": p["position"] <= 11,
-                        "multiplier": p["multiplier"],
-                        "captain": p["is_captain"],
-                        "vice_captain": p["is_vice_captain"],
-                        "stats": live.get(p["element"], {}),
-                        "points_counted": live.get(p["element"], {}).get("total_points", 0)
-                        * p["multiplier"],
-                    }
-                    for p in picks["picks"]
-                ],
+                "picks": pick_rows,
                 "season_history": history["current"],
             }
         )
+
+        if points_counted_total != entry_history_points:
+            print(
+                f"WARNING: computed points ({points_counted_total}) do not match "
+                f"entry_history.points ({entry_history_points}) for GW{gw}",
+                file=sys.stderr,
+            )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=2))
