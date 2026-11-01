@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-01T13:17:57.346750+00:00",
+  "generated_at": "2026-11-01T19:38:32.583007+00:00",
   "entry_id": 4455838,
   "manager_summary": {
     "name": "Charlie Whorton",
     "team_name": "British Diving Team",
-    "overall_points": 473,
-    "overall_rank": 5813421
+    "overall_points": 478,
+    "overall_rank": 6140582
   },
   "current_gameweek": 9,
   "next_gameweek": 10,
@@ -524,7 +524,7 @@
         "form": 7.8,
         "total_points": 69,
         "points_per_game": 7.7,
-        "selected_by_percent": 44.2,
+        "selected_by_percent": 44.4,
         "expected_goal_involvements": 3.17,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -689,11 +689,11 @@
         "status": "a",
         "chance_of_playing_next_round": null,
         "news": "",
-        "form": 1.8,
-        "total_points": 36,
-        "points_per_game": 4.5,
+        "form": 2.5,
+        "total_points": 39,
+        "points_per_game": 4.3,
         "selected_by_percent": 16.8,
-        "expected_goal_involvements": 4.18,
+        "expected_goal_involvements": 4.32,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
           {
@@ -727,9 +727,9 @@
             "fdr": 3
           }
         ],
-        "minutes": 646,
+        "minutes": 733,
         "cost_change_event": 0,
-        "outlook_score": 6.35,
+        "outlook_score": 6.78,
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
@@ -748,7 +748,7 @@
         "form": 4.2,
         "total_points": 45,
         "points_per_game": 5.0,
-        "selected_by_percent": 27.7,
+        "selected_by_percent": 27.8,
         "expected_goal_involvements": 3.62,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
@@ -804,7 +804,7 @@
         "form": 4.8,
         "total_points": 44,
         "points_per_game": 4.9,
-        "selected_by_percent": 20.9,
+        "selected_by_percent": 20.8,
         "expected_goal_involvements": 5.51,
         "avg_fixture_difficulty_next_n": 3.4,
         "upcoming_fixtures": [
@@ -857,11 +857,11 @@
         "status": "a",
         "chance_of_playing_next_round": 100,
         "news": "",
-        "form": 4.5,
-        "total_points": 51,
-        "points_per_game": 7.3,
-        "selected_by_percent": 20.9,
-        "expected_goal_involvements": 4.4,
+        "form": 5.0,
+        "total_points": 53,
+        "points_per_game": 6.6,
+        "selected_by_percent": 21.1,
+        "expected_goal_involvements": 4.63,
         "avg_fixture_difficulty_next_n": 3.4,
         "upcoming_fixtures": [
           {
@@ -895,9 +895,9 @@
             "fdr": 3
           }
         ],
-        "minutes": 567,
+        "minutes": 657,
         "cost_change_event": 1,
-        "outlook_score": 9.72,
+        "outlook_score": 9.93,
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
@@ -916,7 +916,7 @@
         "form": 3.2,
         "total_points": 22,
         "points_per_game": 2.4,
-        "selected_by_percent": 1.1,
+        "selected_by_percent": 1.0,
         "expected_goal_involvements": 0.67,
         "avg_fixture_difficulty_next_n": 2.6,
         "upcoming_fixtures": [
@@ -1028,7 +1028,7 @@
         "form": 7.0,
         "total_points": 51,
         "points_per_game": 5.7,
-        "selected_by_percent": 22.7,
+        "selected_by_percent": 22.8,
         "expected_goal_involvements": 0.21,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -1084,7 +1084,7 @@
         "form": 1.2,
         "total_points": 37,
         "points_per_game": 5.3,
-        "selected_by_percent": 6.6,
+        "selected_by_percent": 6.5,
         "expected_goal_involvements": 4.83,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -1140,7 +1140,7 @@
         "form": 1.0,
         "total_points": 35,
         "points_per_game": 4.4,
-        "selected_by_percent": 22.2,
+        "selected_by_percent": 22.0,
         "expected_goal_involvements": 4.56,
         "avg_fixture_difficulty_next_n": 3.4,
         "upcoming_fixtures": [
@@ -1196,7 +1196,7 @@
         "form": 2.2,
         "total_points": 51,
         "points_per_game": 5.7,
-        "selected_by_percent": 11.5,
+        "selected_by_percent": 11.4,
         "expected_goal_involvements": 2.26,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -2162,6 +2162,58 @@
   "transfer_candidates_by_position": {
     "GKP": [
       {
+        "id": 1,
+        "web_name": "Raya",
+        "team": "ARS",
+        "position": "GKP",
+        "price_m": 6.2,
+        "status": "a",
+        "chance_of_playing_next_round": null,
+        "news": "",
+        "form": 6.0,
+        "total_points": 54,
+        "points_per_game": 6.0,
+        "selected_by_percent": 46.4,
+        "expected_goal_involvements": 0.01,
+        "avg_fixture_difficulty_next_n": 3.2,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "LIV",
+            "venue": "A",
+            "fdr": 4
+          },
+          {
+            "gw": 10,
+            "opponent": "HUL",
+            "venue": "H",
+            "fdr": 2
+          },
+          {
+            "gw": 11,
+            "opponent": "NEW",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 12,
+            "opponent": "MCI",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 13,
+            "opponent": "BRE",
+            "venue": "A",
+            "fdr": 3
+          }
+        ],
+        "minutes": 810,
+        "cost_change_event": 0,
+        "outlook_score": 6.38,
+        "fixture_trend": "toughening"
+      },
+      {
         "id": 57,
         "web_name": "Petrovi\u0107",
         "team": "BOU",
@@ -2211,58 +2263,6 @@
         "minutes": 810,
         "cost_change_event": 0,
         "outlook_score": 5.47,
-        "fixture_trend": "toughening"
-      },
-      {
-        "id": 1,
-        "web_name": "Raya",
-        "team": "ARS",
-        "position": "GKP",
-        "price_m": 6.2,
-        "status": "a",
-        "chance_of_playing_next_round": null,
-        "news": "",
-        "form": 4.8,
-        "total_points": 49,
-        "points_per_game": 6.1,
-        "selected_by_percent": 46.3,
-        "expected_goal_involvements": 0.01,
-        "avg_fixture_difficulty_next_n": 3.2,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "LIV",
-            "venue": "A",
-            "fdr": 4
-          },
-          {
-            "gw": 10,
-            "opponent": "HUL",
-            "venue": "H",
-            "fdr": 2
-          },
-          {
-            "gw": 11,
-            "opponent": "NEW",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 12,
-            "opponent": "MCI",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
-            "gw": 13,
-            "opponent": "BRE",
-            "venue": "A",
-            "fdr": 3
-          }
-        ],
-        "minutes": 720,
-        "cost_change_event": 0,
-        "outlook_score": 5.22,
         "fixture_trend": "toughening"
       },
       {
@@ -2630,6 +2630,58 @@
         "fixture_trend": "steady"
       },
       {
+        "id": 350,
+        "web_name": "A.Becker",
+        "team": "LIV",
+        "position": "GKP",
+        "price_m": 5.5,
+        "status": "a",
+        "chance_of_playing_next_round": null,
+        "news": "",
+        "form": 2.8,
+        "total_points": 38,
+        "points_per_game": 4.2,
+        "selected_by_percent": 4.1,
+        "expected_goal_involvements": 0.01,
+        "avg_fixture_difficulty_next_n": 3.4,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "ARS",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 10,
+            "opponent": "CRY",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 11,
+            "opponent": "MUN",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 12,
+            "opponent": "EVE",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 13,
+            "opponent": "SUN",
+            "venue": "H",
+            "fdr": 3
+          }
+        ],
+        "minutes": 810,
+        "cost_change_event": 0,
+        "outlook_score": 3.18,
+        "fixture_trend": "steady"
+      },
+      {
         "id": 110,
         "web_name": "Rushworth",
         "team": "COV",
@@ -2786,58 +2838,6 @@
         "fixture_trend": "improving"
       },
       {
-        "id": 350,
-        "web_name": "A.Becker",
-        "team": "LIV",
-        "position": "GKP",
-        "price_m": 5.5,
-        "status": "a",
-        "chance_of_playing_next_round": null,
-        "news": "",
-        "form": 2.2,
-        "total_points": 36,
-        "points_per_game": 4.5,
-        "selected_by_percent": 4.1,
-        "expected_goal_involvements": 0.0,
-        "avg_fixture_difficulty_next_n": 3.4,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "ARS",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
-            "gw": 10,
-            "opponent": "CRY",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 11,
-            "opponent": "MUN",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
-            "gw": 12,
-            "opponent": "EVE",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 13,
-            "opponent": "SUN",
-            "venue": "H",
-            "fdr": 3
-          }
-        ],
-        "minutes": 720,
-        "cost_change_event": 0,
-        "outlook_score": 2.61,
-        "fixture_trend": "steady"
-      },
-      {
         "id": 412,
         "web_name": "Lammens",
         "team": "MUN",
@@ -2955,7 +2955,7 @@
         "form": 7.2,
         "total_points": 53,
         "points_per_game": 5.9,
-        "selected_by_percent": 10.0,
+        "selected_by_percent": 10.3,
         "expected_goal_involvements": 2.32,
         "avg_fixture_difficulty_next_n": 2.4,
         "upcoming_fixtures": [
@@ -2996,6 +2996,58 @@
         "fixture_trend": "steady"
       },
       {
+        "id": 31,
+        "web_name": "Konsa",
+        "team": "ARS",
+        "position": "DEF",
+        "price_m": 4.7,
+        "status": "a",
+        "chance_of_playing_next_round": 100,
+        "news": "",
+        "form": 9.2,
+        "total_points": 49,
+        "points_per_game": 6.1,
+        "selected_by_percent": 22.1,
+        "expected_goal_involvements": 0.64,
+        "avg_fixture_difficulty_next_n": 3.2,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "LIV",
+            "venue": "A",
+            "fdr": 4
+          },
+          {
+            "gw": 10,
+            "opponent": "HUL",
+            "venue": "H",
+            "fdr": 2
+          },
+          {
+            "gw": 11,
+            "opponent": "NEW",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 12,
+            "opponent": "MCI",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 13,
+            "opponent": "BRE",
+            "venue": "A",
+            "fdr": 3
+          }
+        ],
+        "minutes": 641,
+        "cost_change_event": 0,
+        "outlook_score": 10.28,
+        "fixture_trend": "toughening"
+      },
+      {
         "id": 4,
         "web_name": "Gabriel",
         "team": "ARS",
@@ -3004,10 +3056,10 @@
         "status": "a",
         "chance_of_playing_next_round": null,
         "news": "",
-        "form": 6.8,
-        "total_points": 52,
-        "points_per_game": 6.5,
-        "selected_by_percent": 24.1,
+        "form": 8.2,
+        "total_points": 58,
+        "points_per_game": 6.4,
+        "selected_by_percent": 24.2,
         "expected_goal_involvements": 1.72,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -3042,9 +3094,61 @@
             "fdr": 3
           }
         ],
-        "minutes": 720,
+        "minutes": 810,
         "cost_change_event": 0,
-        "outlook_score": 8.77,
+        "outlook_score": 10.01,
+        "fixture_trend": "toughening"
+      },
+      {
+        "id": 8,
+        "web_name": "Calafiori",
+        "team": "ARS",
+        "position": "DEF",
+        "price_m": 5.9,
+        "status": "a",
+        "chance_of_playing_next_round": 100,
+        "news": "",
+        "form": 6.0,
+        "total_points": 53,
+        "points_per_game": 5.9,
+        "selected_by_percent": 47.8,
+        "expected_goal_involvements": 2.22,
+        "avg_fixture_difficulty_next_n": 3.2,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "LIV",
+            "venue": "A",
+            "fdr": 4
+          },
+          {
+            "gw": 10,
+            "opponent": "HUL",
+            "venue": "H",
+            "fdr": 2
+          },
+          {
+            "gw": 11,
+            "opponent": "NEW",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 12,
+            "opponent": "MCI",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 13,
+            "opponent": "BRE",
+            "venue": "A",
+            "fdr": 3
+          }
+        ],
+        "minutes": 699,
+        "cost_change_event": 0,
+        "outlook_score": 8.48,
         "fixture_trend": "toughening"
       },
       {
@@ -3059,7 +3163,7 @@
         "form": 6.0,
         "total_points": 37,
         "points_per_game": 4.1,
-        "selected_by_percent": 2.1,
+        "selected_by_percent": 2.2,
         "expected_goal_involvements": 1.66,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -3097,58 +3201,6 @@
         "minutes": 810,
         "cost_change_event": 0,
         "outlook_score": 8.06,
-        "fixture_trend": "toughening"
-      },
-      {
-        "id": 31,
-        "web_name": "Konsa",
-        "team": "ARS",
-        "position": "DEF",
-        "price_m": 4.7,
-        "status": "a",
-        "chance_of_playing_next_round": 100,
-        "news": "",
-        "form": 6.8,
-        "total_points": 39,
-        "points_per_game": 5.6,
-        "selected_by_percent": 21.9,
-        "expected_goal_involvements": 0.64,
-        "avg_fixture_difficulty_next_n": 3.2,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "LIV",
-            "venue": "A",
-            "fdr": 4
-          },
-          {
-            "gw": 10,
-            "opponent": "HUL",
-            "venue": "H",
-            "fdr": 2
-          },
-          {
-            "gw": 11,
-            "opponent": "NEW",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 12,
-            "opponent": "MCI",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
-            "gw": 13,
-            "opponent": "BRE",
-            "venue": "A",
-            "fdr": 3
-          }
-        ],
-        "minutes": 551,
-        "cost_change_event": 0,
-        "outlook_score": 7.99,
         "fixture_trend": "toughening"
       },
       {
@@ -3670,58 +3722,6 @@
         "cost_change_event": 0,
         "outlook_score": 5.7,
         "fixture_trend": "toughening"
-      },
-      {
-        "id": 304,
-        "web_name": "O'Shea",
-        "team": "IPS",
-        "position": "DEF",
-        "price_m": 4.0,
-        "status": "a",
-        "chance_of_playing_next_round": null,
-        "news": "",
-        "form": 4.2,
-        "total_points": 27,
-        "points_per_game": 3.0,
-        "selected_by_percent": 2.9,
-        "expected_goal_involvements": 0.62,
-        "avg_fixture_difficulty_next_n": 2.6,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "HUL",
-            "venue": "A",
-            "fdr": 2
-          },
-          {
-            "gw": 10,
-            "opponent": "BOU",
-            "venue": "H",
-            "fdr": 3
-          },
-          {
-            "gw": 11,
-            "opponent": "TOT",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 12,
-            "opponent": "AVL",
-            "venue": "H",
-            "fdr": 3
-          },
-          {
-            "gw": 13,
-            "opponent": "COV",
-            "venue": "A",
-            "fdr": 2
-          }
-        ],
-        "minutes": 810,
-        "cost_change_event": 0,
-        "outlook_score": 5.69,
-        "fixture_trend": "steady"
       }
     ],
     "MID": [
@@ -3737,7 +3737,7 @@
         "form": 6.0,
         "total_points": 55,
         "points_per_game": 6.1,
-        "selected_by_percent": 26.2,
+        "selected_by_percent": 26.5,
         "expected_goal_involvements": 5.07,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -3945,7 +3945,7 @@
         "form": 6.0,
         "total_points": 38,
         "points_per_game": 6.3,
-        "selected_by_percent": 6.5,
+        "selected_by_percent": 6.6,
         "expected_goal_involvements": 2.18,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4049,7 +4049,7 @@
         "form": 7.0,
         "total_points": 43,
         "points_per_game": 5.4,
-        "selected_by_percent": 1.0,
+        "selected_by_percent": 1.1,
         "expected_goal_involvements": 2.27,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -4101,7 +4101,7 @@
         "form": 6.5,
         "total_points": 40,
         "points_per_game": 4.4,
-        "selected_by_percent": 4.8,
+        "selected_by_percent": 4.9,
         "expected_goal_involvements": 2.77,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
@@ -4142,6 +4142,58 @@
         "fixture_trend": "improving"
       },
       {
+        "id": 13,
+        "web_name": "Rice",
+        "team": "ARS",
+        "position": "MID",
+        "price_m": 7.4,
+        "status": "a",
+        "chance_of_playing_next_round": 100,
+        "news": "",
+        "form": 6.8,
+        "total_points": 47,
+        "points_per_game": 5.2,
+        "selected_by_percent": 11.9,
+        "expected_goal_involvements": 2.44,
+        "avg_fixture_difficulty_next_n": 3.2,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "LIV",
+            "venue": "A",
+            "fdr": 4
+          },
+          {
+            "gw": 10,
+            "opponent": "HUL",
+            "venue": "H",
+            "fdr": 2
+          },
+          {
+            "gw": 11,
+            "opponent": "NEW",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 12,
+            "opponent": "MCI",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 13,
+            "opponent": "BRE",
+            "venue": "A",
+            "fdr": 3
+          }
+        ],
+        "minutes": 760,
+        "cost_change_event": 0,
+        "outlook_score": 9.33,
+        "fixture_trend": "toughening"
+      },
+      {
         "id": 40,
         "web_name": "Rogers",
         "team": "CHE",
@@ -4153,7 +4205,7 @@
         "form": 5.2,
         "total_points": 50,
         "points_per_game": 5.6,
-        "selected_by_percent": 51.6,
+        "selected_by_percent": 51.8,
         "expected_goal_involvements": 4.22,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
@@ -4452,58 +4504,6 @@
         "cost_change_event": 0,
         "outlook_score": 8.46,
         "fixture_trend": "improving"
-      },
-      {
-        "id": 67,
-        "web_name": "Rayan",
-        "team": "BOU",
-        "position": "MID",
-        "price_m": 6.3,
-        "status": "a",
-        "chance_of_playing_next_round": null,
-        "news": "",
-        "form": 4.5,
-        "total_points": 28,
-        "points_per_game": 3.1,
-        "selected_by_percent": 2.2,
-        "expected_goal_involvements": 3.13,
-        "avg_fixture_difficulty_next_n": 2.8,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "LEE",
-            "venue": "H",
-            "fdr": 3
-          },
-          {
-            "gw": 10,
-            "opponent": "IPS",
-            "venue": "A",
-            "fdr": 2
-          },
-          {
-            "gw": 11,
-            "opponent": "NFO",
-            "venue": "H",
-            "fdr": 3
-          },
-          {
-            "gw": 12,
-            "opponent": "FUL",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 13,
-            "opponent": "BHA",
-            "venue": "H",
-            "fdr": 3
-          }
-        ],
-        "minutes": 789,
-        "cost_change_event": 0,
-        "outlook_score": 7.84,
-        "fixture_trend": "toughening"
       }
     ],
     "FWD": [
@@ -4571,7 +4571,7 @@
         "form": 8.5,
         "total_points": 52,
         "points_per_game": 5.8,
-        "selected_by_percent": 15.9,
+        "selected_by_percent": 16.4,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4623,7 +4623,7 @@
         "form": 8.2,
         "total_points": 43,
         "points_per_game": 5.4,
-        "selected_by_percent": 24.3,
+        "selected_by_percent": 24.7,
         "expected_goal_involvements": 3.04,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4779,7 +4779,7 @@
         "form": 3.8,
         "total_points": 37,
         "points_per_game": 4.1,
-        "selected_by_percent": 21.2,
+        "selected_by_percent": 21.1,
         "expected_goal_involvements": 4.05,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -4974,6 +4974,58 @@
         "cost_change_event": 0,
         "outlook_score": 7.1,
         "fixture_trend": "steady"
+      },
+      {
+        "id": 26,
+        "web_name": "Havertz",
+        "team": "ARS",
+        "position": "FWD",
+        "price_m": 7.4,
+        "status": "a",
+        "chance_of_playing_next_round": 100,
+        "news": "",
+        "form": 3.5,
+        "total_points": 33,
+        "points_per_game": 3.7,
+        "selected_by_percent": 5.5,
+        "expected_goal_involvements": 3.2,
+        "avg_fixture_difficulty_next_n": 3.2,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "LIV",
+            "venue": "A",
+            "fdr": 4
+          },
+          {
+            "gw": 10,
+            "opponent": "HUL",
+            "venue": "H",
+            "fdr": 2
+          },
+          {
+            "gw": 11,
+            "opponent": "NEW",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 12,
+            "opponent": "MCI",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 13,
+            "opponent": "BRE",
+            "venue": "A",
+            "fdr": 3
+          }
+        ],
+        "minutes": 669,
+        "cost_change_event": 0,
+        "outlook_score": 7.0,
+        "fixture_trend": "toughening"
       },
       {
         "id": 492,
@@ -5234,58 +5286,6 @@
         "cost_change_event": 0,
         "outlook_score": 5.83,
         "fixture_trend": "steady"
-      },
-      {
-        "id": 167,
-        "web_name": "Delap",
-        "team": "NFO",
-        "position": "FWD",
-        "price_m": 5.4,
-        "status": "a",
-        "chance_of_playing_next_round": null,
-        "news": "",
-        "form": 2.0,
-        "total_points": 17,
-        "points_per_game": 2.1,
-        "selected_by_percent": 1.6,
-        "expected_goal_involvements": 3.22,
-        "avg_fixture_difficulty_next_n": 3.2,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "BRE",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 10,
-            "opponent": "MCI",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
-            "gw": 11,
-            "opponent": "BOU",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 12,
-            "opponent": "CHE",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
-            "gw": 13,
-            "opponent": "HUL",
-            "venue": "A",
-            "fdr": 2
-          }
-        ],
-        "minutes": 592,
-        "cost_change_event": 0,
-        "outlook_score": 5.83,
-        "fixture_trend": "improving"
       }
     ]
   },
