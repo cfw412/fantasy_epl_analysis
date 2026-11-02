@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-02T10:59:32.524174+00:00",
+  "generated_at": "2026-11-02T21:41:48.042523+00:00",
   "entry_id": 4455838,
   "manager_summary": {
     "name": "Charlie Whorton",
     "team_name": "British Diving Team",
     "overall_points": 478,
-    "overall_rank": 6108077
+    "overall_rank": 6257056
   },
   "current_gameweek": 9,
   "next_gameweek": 10,
@@ -412,7 +412,7 @@
         "form": 5.0,
         "total_points": 38,
         "points_per_game": 4.2,
-        "selected_by_percent": 15.3,
+        "selected_by_percent": 15.4,
         "expected_goal_involvements": 0.0,
         "avg_fixture_difficulty_next_n": 2.4,
         "upcoming_fixtures": [
@@ -524,7 +524,7 @@
         "form": 7.8,
         "total_points": 69,
         "points_per_game": 7.7,
-        "selected_by_percent": 44.6,
+        "selected_by_percent": 44.7,
         "expected_goal_involvements": 3.17,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -692,7 +692,7 @@
         "form": 2.5,
         "total_points": 39,
         "points_per_game": 4.3,
-        "selected_by_percent": 16.7,
+        "selected_by_percent": 16.6,
         "expected_goal_involvements": 4.3,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -804,7 +804,7 @@
         "form": 4.8,
         "total_points": 44,
         "points_per_game": 4.9,
-        "selected_by_percent": 20.7,
+        "selected_by_percent": 20.6,
         "expected_goal_involvements": 5.51,
         "avg_fixture_difficulty_next_n": 3.4,
         "upcoming_fixtures": [
@@ -860,7 +860,7 @@
         "form": 5.0,
         "total_points": 53,
         "points_per_game": 6.6,
-        "selected_by_percent": 21.3,
+        "selected_by_percent": 21.4,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 3.4,
         "upcoming_fixtures": [
@@ -969,11 +969,11 @@
         "status": "a",
         "chance_of_playing_next_round": null,
         "news": "",
-        "form": 2.5,
-        "total_points": 30,
-        "points_per_game": 3.8,
+        "form": 4.8,
+        "total_points": 39,
+        "points_per_game": 4.3,
         "selected_by_percent": 7.4,
-        "expected_goal_involvements": 5.25,
+        "expected_goal_involvements": 6.74,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
           {
@@ -1007,9 +1007,9 @@
             "fdr": 3
           }
         ],
-        "minutes": 682,
+        "minutes": 761,
         "cost_change_event": 0,
-        "outlook_score": 7.89,
+        "outlook_score": 11.08,
         "is_captain": false,
         "is_vice_captain": false,
         "multiplier": 1,
@@ -1028,7 +1028,7 @@
         "form": 7.0,
         "total_points": 51,
         "points_per_game": 5.7,
-        "selected_by_percent": 22.9,
+        "selected_by_percent": 23.0,
         "expected_goal_involvements": 0.21,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -1140,7 +1140,7 @@
         "form": 1.0,
         "total_points": 35,
         "points_per_game": 4.4,
-        "selected_by_percent": 21.9,
+        "selected_by_percent": 21.8,
         "expected_goal_involvements": 4.56,
         "avg_fixture_difficulty_next_n": 3.4,
         "upcoming_fixtures": [
@@ -2578,6 +2578,58 @@
         "fixture_trend": "toughening"
       },
       {
+        "id": 567,
+        "web_name": "Horn\u00ed\u010dek",
+        "team": "NEW",
+        "position": "GKP",
+        "price_m": 5.0,
+        "status": "a",
+        "chance_of_playing_next_round": null,
+        "news": "",
+        "form": 3.2,
+        "total_points": 27,
+        "points_per_game": 3.0,
+        "selected_by_percent": 1.3,
+        "expected_goal_involvements": 0.0,
+        "avg_fixture_difficulty_next_n": 3.6,
+        "upcoming_fixtures": [
+          {
+            "gw": 9,
+            "opponent": "EVE",
+            "venue": "H",
+            "fdr": 3
+          },
+          {
+            "gw": 10,
+            "opponent": "FUL",
+            "venue": "A",
+            "fdr": 3
+          },
+          {
+            "gw": 11,
+            "opponent": "ARS",
+            "venue": "H",
+            "fdr": 4
+          },
+          {
+            "gw": 12,
+            "opponent": "BHA",
+            "venue": "A",
+            "fdr": 4
+          },
+          {
+            "gw": 13,
+            "opponent": "MUN",
+            "venue": "H",
+            "fdr": 4
+          }
+        ],
+        "minutes": 800,
+        "cost_change_event": 0,
+        "outlook_score": 3.58,
+        "fixture_trend": "toughening"
+      },
+      {
         "id": 300,
         "web_name": "Walton",
         "team": "IPS",
@@ -2734,55 +2786,55 @@
         "fixture_trend": "improving"
       },
       {
-        "id": 567,
-        "web_name": "Horn\u00ed\u010dek",
-        "team": "NEW",
+        "id": 226,
+        "web_name": "Pickford",
+        "team": "EVE",
         "position": "GKP",
-        "price_m": 5.0,
+        "price_m": 5.5,
         "status": "a",
         "chance_of_playing_next_round": null,
         "news": "",
         "form": 2.5,
-        "total_points": 24,
-        "points_per_game": 3.0,
-        "selected_by_percent": 1.3,
-        "expected_goal_involvements": 0.0,
-        "avg_fixture_difficulty_next_n": 3.6,
+        "total_points": 35,
+        "points_per_game": 3.9,
+        "selected_by_percent": 8.4,
+        "expected_goal_involvements": 0.03,
+        "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
           {
             "gw": 9,
-            "opponent": "EVE",
-            "venue": "H",
+            "opponent": "NEW",
+            "venue": "A",
             "fdr": 3
           },
           {
             "gw": 10,
-            "opponent": "FUL",
+            "opponent": "COV",
+            "venue": "H",
+            "fdr": 2
+          },
+          {
+            "gw": 11,
+            "opponent": "BRE",
             "venue": "A",
             "fdr": 3
           },
           {
-            "gw": 11,
-            "opponent": "ARS",
-            "venue": "H",
-            "fdr": 4
-          },
-          {
             "gw": 12,
-            "opponent": "BHA",
-            "venue": "A",
+            "opponent": "LIV",
+            "venue": "H",
             "fdr": 4
           },
           {
             "gw": 13,
-            "opponent": "MUN",
-            "venue": "H",
-            "fdr": 4
+            "opponent": "AVL",
+            "venue": "A",
+            "fdr": 3
           }
         ],
-        "minutes": 720,
+        "minutes": 800,
         "cost_change_event": 0,
-        "outlook_score": 2.91,
+        "outlook_score": 2.9,
         "fixture_trend": "toughening"
       },
       {
@@ -2888,58 +2940,6 @@
         "cost_change_event": 0,
         "outlook_score": 2.61,
         "fixture_trend": "steady"
-      },
-      {
-        "id": 572,
-        "web_name": "Tzolakis",
-        "team": "HUL",
-        "position": "GKP",
-        "price_m": 4.7,
-        "status": "a",
-        "chance_of_playing_next_round": null,
-        "news": "",
-        "form": 2.2,
-        "total_points": 43,
-        "points_per_game": 4.8,
-        "selected_by_percent": 14.0,
-        "expected_goal_involvements": 0.0,
-        "avg_fixture_difficulty_next_n": 3.2,
-        "upcoming_fixtures": [
-          {
-            "gw": 9,
-            "opponent": "IPS",
-            "venue": "H",
-            "fdr": 2
-          },
-          {
-            "gw": 10,
-            "opponent": "ARS",
-            "venue": "A",
-            "fdr": 5
-          },
-          {
-            "gw": 11,
-            "opponent": "BHA",
-            "venue": "H",
-            "fdr": 3
-          },
-          {
-            "gw": 12,
-            "opponent": "CRY",
-            "venue": "A",
-            "fdr": 3
-          },
-          {
-            "gw": 13,
-            "opponent": "NFO",
-            "venue": "H",
-            "fdr": 3
-          }
-        ],
-        "minutes": 810,
-        "cost_change_event": 0,
-        "outlook_score": 2.58,
-        "fixture_trend": "improving"
       }
     ],
     "DEF": [
@@ -2955,7 +2955,7 @@
         "form": 7.2,
         "total_points": 53,
         "points_per_game": 5.9,
-        "selected_by_percent": 10.6,
+        "selected_by_percent": 10.8,
         "expected_goal_involvements": 2.32,
         "avg_fixture_difficulty_next_n": 2.4,
         "upcoming_fixtures": [
@@ -3007,7 +3007,7 @@
         "form": 9.2,
         "total_points": 49,
         "points_per_game": 6.1,
-        "selected_by_percent": 22.4,
+        "selected_by_percent": 22.6,
         "expected_goal_involvements": 0.64,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -3111,7 +3111,7 @@
         "form": 6.0,
         "total_points": 37,
         "points_per_game": 4.1,
-        "selected_by_percent": 2.2,
+        "selected_by_percent": 2.3,
         "expected_goal_involvements": 1.66,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -3215,7 +3215,7 @@
         "form": 6.5,
         "total_points": 38,
         "points_per_game": 4.2,
-        "selected_by_percent": 2.4,
+        "selected_by_percent": 2.5,
         "expected_goal_involvements": 0.97,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -3737,7 +3737,7 @@
         "form": 6.0,
         "total_points": 55,
         "points_per_game": 6.1,
-        "selected_by_percent": 26.9,
+        "selected_by_percent": 27.1,
         "expected_goal_involvements": 5.07,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -3789,7 +3789,7 @@
         "form": 6.0,
         "total_points": 37,
         "points_per_game": 4.1,
-        "selected_by_percent": 0.8,
+        "selected_by_percent": 0.9,
         "expected_goal_involvements": 3.53,
         "avg_fixture_difficulty_next_n": 2.6,
         "upcoming_fixtures": [
@@ -3945,7 +3945,7 @@
         "form": 6.0,
         "total_points": 38,
         "points_per_game": 6.3,
-        "selected_by_percent": 6.7,
+        "selected_by_percent": 6.8,
         "expected_goal_involvements": 2.18,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4049,7 +4049,7 @@
         "form": 7.0,
         "total_points": 43,
         "points_per_game": 5.4,
-        "selected_by_percent": 1.2,
+        "selected_by_percent": 1.3,
         "expected_goal_involvements": 2.27,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -4153,7 +4153,7 @@
         "form": 6.8,
         "total_points": 47,
         "points_per_game": 5.2,
-        "selected_by_percent": 12.0,
+        "selected_by_percent": 12.2,
         "expected_goal_involvements": 2.45,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -4205,7 +4205,7 @@
         "form": 5.2,
         "total_points": 50,
         "points_per_game": 5.6,
-        "selected_by_percent": 52.0,
+        "selected_by_percent": 52.1,
         "expected_goal_involvements": 4.22,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
@@ -4309,7 +4309,7 @@
         "form": 4.8,
         "total_points": 26,
         "points_per_game": 3.2,
-        "selected_by_percent": 1.6,
+        "selected_by_percent": 1.7,
         "expected_goal_involvements": 2.05,
         "avg_fixture_difficulty_next_n": 2.4,
         "upcoming_fixtures": [
@@ -4519,7 +4519,7 @@
         "form": 7.2,
         "total_points": 68,
         "points_per_game": 7.6,
-        "selected_by_percent": 78.9,
+        "selected_by_percent": 79.0,
         "expected_goal_involvements": 7.41,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -4571,7 +4571,7 @@
         "form": 8.5,
         "total_points": 52,
         "points_per_game": 5.8,
-        "selected_by_percent": 16.9,
+        "selected_by_percent": 17.3,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4623,7 +4623,7 @@
         "form": 8.2,
         "total_points": 43,
         "points_per_game": 5.4,
-        "selected_by_percent": 25.1,
+        "selected_by_percent": 25.4,
         "expected_goal_involvements": 3.04,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4988,7 +4988,7 @@
         "total_points": 33,
         "points_per_game": 3.7,
         "selected_by_percent": 5.6,
-        "expected_goal_involvements": 3.2,
+        "expected_goal_involvements": 3.21,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
           {
@@ -5024,7 +5024,7 @@
         ],
         "minutes": 669,
         "cost_change_event": 0,
-        "outlook_score": 7.0,
+        "outlook_score": 7.01,
         "fixture_trend": "toughening"
       },
       {
