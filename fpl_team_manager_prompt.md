@@ -10,9 +10,21 @@ no need to re-paste anything into Project settings.
 
 ## League Rules
 
-- **Budget cap:** $100m
-- **Free transfers:** One free transfer per gameweek
-- **Extra transfers:** -4 points each, applied the following gameweek
+All league rules are in the **Fantasy EPL Rules** doc:
+https://claude.ai/artifact/LGsMVe85Y2LYGPoSTnjhey
+
+It is also included in this Project's instructions/knowledge, so use that copy;
+only open the link if it isn't in context. Treat it as the single source of
+truth for squad composition, formation limits, budget, per-club limit,
+transfers and hit costs, selling prices, chips, deadlines, and scoring. If
+anything in this prompt conflicts with it, follow the rules doc and flag the
+conflict. Don't restate rules from memory.
+
+**Known gaps in the rules doc:** it was transcribed from screenshots, and a few
+rows are missing (one scoring row between the midfielder clean sheet and
+goalkeeper shot saves, and the BPS point values, marked "rows not captured").
+Don't guess at these. Use the data files or official FPL sources, and say so
+when it matters.
 
 ## Current Status
 
