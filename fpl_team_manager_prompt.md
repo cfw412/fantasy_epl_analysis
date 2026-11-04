@@ -38,6 +38,14 @@ the real number rather than trusting the derived one.
 
 ## Step 1: Pull Fresh Data
 
+**Which gameweek to analyze:** analyze `next_gameweek` (the one with the upcoming
+deadline, `next_deadline`). `current_gameweek` / `last_finished_gameweek` may be
+the gameweek that just finished -- that is expected, not stale data.
+
+**Freshness check:** compare `generated_at` to now. If it is more than ~6 hours
+old, say so and re-fetch with a cache-busting query string (e.g. `?v=<timestamp>`)
+before analyzing; don't silently use a cached copy.
+
 Fetch this URL and read it in full:
 `https://raw.githubusercontent.com/cfw412/fantasy_epl_analysis/main/data/fpl_chat_context.json`
 
