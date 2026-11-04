@@ -277,7 +277,7 @@ def write_if_changed(path, data, ts_key="generated_at"):
             if existing_compare == new_compare:
                 print(f"No material change to {path}; leaving file as-is.", file=sys.stderr)
                 return
-    path.write_text(json.dumps(data, indent=2))
+    path.write_text(json.dumps(data, separators=(",", ":")))
 
 
 def main():
