@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T23:20:42.135243+00:00",
+  "generated_at": "2026-11-04T05:07:29.444670+00:00",
   "entry_id": 4455838,
   "manager_summary": {
     "name": "Charlie Whorton",
     "team_name": "British Diving Team",
     "overall_points": 487,
-    "overall_rank": 5958974
+    "overall_rank": 5958973
   },
   "current_gameweek": 9,
   "next_gameweek": 10,
@@ -916,7 +916,7 @@
         "form": 5.0,
         "total_points": 53,
         "points_per_game": 6.6,
-        "selected_by_percent": 21.7,
+        "selected_by_percent": 21.8,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -1084,7 +1084,7 @@
         "form": 5.2,
         "total_points": 42,
         "points_per_game": 6.0,
-        "selected_by_percent": 4.7,
+        "selected_by_percent": 4.6,
         "expected_goal_involvements": 1.01,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -2973,7 +2973,7 @@
         "web_name": "Konsa",
         "team": "ARS",
         "position": "DEF",
-        "price_m": 4.7,
+        "price_m": 4.8,
         "status": "a",
         "chance_of_playing_next_round": 100,
         "news": "",
@@ -3016,7 +3016,7 @@
           }
         ],
         "minutes": 641,
-        "cost_change_event": 0,
+        "cost_change_event": 1,
         "outlook_score": 10.28,
         "fixture_trend": "toughening"
       },
@@ -3129,7 +3129,7 @@
         "web_name": "Silva",
         "team": "BOU",
         "position": "DEF",
-        "price_m": 5.0,
+        "price_m": 5.1,
         "status": "a",
         "chance_of_playing_next_round": null,
         "news": "",
@@ -3172,7 +3172,7 @@
           }
         ],
         "minutes": 810,
-        "cost_change_event": 0,
+        "cost_change_event": 1,
         "outlook_score": 8.06,
         "fixture_trend": "toughening"
       },
@@ -3240,7 +3240,7 @@
         "form": 6.5,
         "total_points": 38,
         "points_per_game": 4.2,
-        "selected_by_percent": 2.5,
+        "selected_by_percent": 2.6,
         "expected_goal_involvements": 0.97,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4067,7 +4067,7 @@
         "web_name": "Rogers",
         "team": "CHE",
         "position": "MID",
-        "price_m": 8.1,
+        "price_m": 8.2,
         "status": "a",
         "chance_of_playing_next_round": null,
         "news": "",
@@ -4110,7 +4110,7 @@
           }
         ],
         "minutes": 790,
-        "cost_change_event": 0,
+        "cost_change_event": 1,
         "outlook_score": 9.47,
         "fixture_trend": "improving"
       },
@@ -4431,7 +4431,7 @@
         "web_name": "Kudus",
         "team": "TOT",
         "position": "MID",
-        "price_m": 6.5,
+        "price_m": 6.6,
         "status": "a",
         "chance_of_playing_next_round": 100,
         "news": "",
@@ -4474,7 +4474,7 @@
           }
         ],
         "minutes": 452,
-        "cost_change_event": 0,
+        "cost_change_event": 1,
         "outlook_score": 8.22,
         "fixture_trend": "toughening"
       },
@@ -4544,7 +4544,7 @@
         "form": 8.5,
         "total_points": 52,
         "points_per_game": 5.8,
-        "selected_by_percent": 18.1,
+        "selected_by_percent": 18.2,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4752,7 +4752,7 @@
         "form": 5.8,
         "total_points": 36,
         "points_per_game": 4.0,
-        "selected_by_percent": 1.7,
+        "selected_by_percent": 1.8,
         "expected_goal_involvements": 2.46,
         "avg_fixture_difficulty_next_n": 3.6,
         "upcoming_fixtures": [
@@ -5168,7 +5168,7 @@
         "form": 4.0,
         "total_points": 17,
         "points_per_game": 3.4,
-        "selected_by_percent": 0.5,
+        "selected_by_percent": 0.4,
         "expected_goal_involvements": 0.41,
         "avg_fixture_difficulty_next_n": 2.6,
         "upcoming_fixtures": [
