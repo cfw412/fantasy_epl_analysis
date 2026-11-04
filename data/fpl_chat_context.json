@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-04T05:07:29.444670+00:00",
+  "generated_at": "2026-11-04T14:52:07.567996+00:00",
   "entry_id": 4455838,
   "manager_summary": {
     "name": "Charlie Whorton",
     "team_name": "British Diving Team",
     "overall_points": 487,
-    "overall_rank": 5958973
+    "overall_rank": 5958965
   },
   "current_gameweek": 9,
   "next_gameweek": 10,
@@ -692,7 +692,7 @@
         "form": 6.0,
         "total_points": 55,
         "points_per_game": 6.1,
-        "selected_by_percent": 27.7,
+        "selected_by_percent": 27.8,
         "expected_goal_involvements": 5.07,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -860,7 +860,7 @@
         "form": 4.8,
         "total_points": 44,
         "points_per_game": 4.9,
-        "selected_by_percent": 20.4,
+        "selected_by_percent": 20.3,
         "expected_goal_involvements": 5.51,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
@@ -916,7 +916,7 @@
         "form": 5.0,
         "total_points": 53,
         "points_per_game": 6.6,
-        "selected_by_percent": 21.8,
+        "selected_by_percent": 21.9,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -1028,7 +1028,7 @@
         "form": 7.0,
         "total_points": 51,
         "points_per_game": 5.7,
-        "selected_by_percent": 23.1,
+        "selected_by_percent": 23.2,
         "expected_goal_involvements": 0.21,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -2198,7 +2198,7 @@
         "form": 6.0,
         "total_points": 54,
         "points_per_game": 6.0,
-        "selected_by_percent": 46.6,
+        "selected_by_percent": 46.7,
         "expected_goal_involvements": 0.01,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -2562,7 +2562,7 @@
         "form": 3.2,
         "total_points": 32,
         "points_per_game": 3.6,
-        "selected_by_percent": 7.4,
+        "selected_by_percent": 7.3,
         "expected_goal_involvements": 0.0,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -2980,7 +2980,7 @@
         "form": 9.2,
         "total_points": 49,
         "points_per_game": 6.1,
-        "selected_by_percent": 23.1,
+        "selected_by_percent": 23.2,
         "expected_goal_involvements": 0.64,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -3032,7 +3032,7 @@
         "form": 8.2,
         "total_points": 58,
         "points_per_game": 6.4,
-        "selected_by_percent": 24.5,
+        "selected_by_percent": 24.6,
         "expected_goal_involvements": 1.72,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
@@ -3084,7 +3084,7 @@
         "form": 7.2,
         "total_points": 53,
         "points_per_game": 5.9,
-        "selected_by_percent": 11.3,
+        "selected_by_percent": 11.4,
         "expected_goal_involvements": 2.32,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -3762,7 +3762,7 @@
         "form": 6.0,
         "total_points": 38,
         "points_per_game": 6.3,
-        "selected_by_percent": 7.1,
+        "selected_by_percent": 7.2,
         "expected_goal_involvements": 2.18,
         "avg_fixture_difficulty_next_n": 2.4,
         "upcoming_fixtures": [
@@ -4074,7 +4074,7 @@
         "form": 5.2,
         "total_points": 50,
         "points_per_game": 5.6,
-        "selected_by_percent": 52.5,
+        "selected_by_percent": 52.6,
         "expected_goal_involvements": 4.22,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4438,7 +4438,7 @@
         "form": 4.8,
         "total_points": 26,
         "points_per_game": 3.2,
-        "selected_by_percent": 1.7,
+        "selected_by_percent": 1.8,
         "expected_goal_involvements": 2.05,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4544,7 +4544,7 @@
         "form": 8.5,
         "total_points": 52,
         "points_per_game": 5.8,
-        "selected_by_percent": 18.2,
+        "selected_by_percent": 18.3,
         "expected_goal_involvements": 4.61,
         "avg_fixture_difficulty_next_n": 2.8,
         "upcoming_fixtures": [
@@ -4596,7 +4596,7 @@
         "form": 8.2,
         "total_points": 43,
         "points_per_game": 5.4,
-        "selected_by_percent": 26.1,
+        "selected_by_percent": 26.2,
         "expected_goal_involvements": 3.04,
         "avg_fixture_difficulty_next_n": 2.4,
         "upcoming_fixtures": [
@@ -4648,7 +4648,7 @@
         "form": 4.8,
         "total_points": 39,
         "points_per_game": 4.3,
-        "selected_by_percent": 7.6,
+        "selected_by_percent": 7.7,
         "expected_goal_involvements": 6.75,
         "avg_fixture_difficulty_next_n": 3.0,
         "upcoming_fixtures": [
@@ -4804,7 +4804,7 @@
         "form": 3.8,
         "total_points": 37,
         "points_per_game": 4.1,
-        "selected_by_percent": 20.8,
+        "selected_by_percent": 20.7,
         "expected_goal_involvements": 4.05,
         "avg_fixture_difficulty_next_n": 3.2,
         "upcoming_fixtures": [
