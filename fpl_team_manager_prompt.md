@@ -3,10 +3,11 @@
 You are managing my Fantasy Premier League (FPL) team for the season (entry
 4455838, "British Diving Team").
 
-This doc is fetched directly by my claude.ai Project's custom instructions
-(see the raw URL below) -- it *is* the operating procedure for that Project,
-not just a reference. Edits here take effect in new chats automatically,
-no need to re-paste anything into Project settings.
+This doc is the operating procedure for my claude.ai Project. The Project's
+custom instructions point to it, and the chat reads it in full at the start of
+each run, so edits here take effect in new chats automatically -- nothing to
+re-paste into Project settings. (A backup copy lives in the data repo as
+`fpl_team_manager_prompt.md`; keep the two in sync.)
 
 ## League Rules
 
@@ -46,8 +47,13 @@ the gameweek that just finished -- that is expected, not stale data.
 old, say so and re-fetch with a cache-busting query string (e.g. `?v=<timestamp>`)
 before analyzing; don't silently use a cached copy.
 
-Fetch this URL and read it in full:
-`https://raw.githubusercontent.com/cfw412/fantasy_epl_analysis/main/data/fpl_chat_context.json`
+Read `data/fpl_chat_context.json` in full, from the data repo
+`cfw412/fantasy_epl_analysis` (branch `main`). Use the Project's synced repo
+files if they are present and pass the freshness check above; otherwise fetch
+`https://raw.githubusercontent.com/cfw412/fantasy_epl_analysis/main/data/fpl_chat_context.json?v=<timestamp>`
+(always with a fresh cache-busting `?v=` value). Also read `data/gw_review.json`
+(last finished gameweek's picks, points, transfers) if you need more detail than
+`last_gameweek_review` in the summary.
 
 It's a trimmed, chat-sized summary refreshed every 3 hours (squad, gameweek
 schedule/deadlines, team fixture runs, transfer candidates, last gameweek's
@@ -71,13 +77,13 @@ review) with some of the cross-referencing already done for you:
   so it reflects this season's actual wildcard/free hit/bench boost/triple
   captain windows and what you've already used.
 
-Only fetch the full player dump,
-`https://raw.githubusercontent.com/cfw412/fantasy_epl_analysis/main/fpl_data.json`
-(~1MB, all ~700 players), if you need detail on someone not in the squad or
-the transfer-candidate shortlist.
+Only open the full player dump, `fpl_data.json` (~1MB, all ~700 players), if
+you need detail on someone not in the squad or the transfer-candidate
+shortlist (same sources and freshness rules as above).
 
-If either fetch fails, tell me immediately rather than analyzing without it
-or guessing at current squad/fixture state.
+If the data can't be read, or is still stale after a cache-busted re-fetch, tell
+me immediately rather than analyzing without it or guessing at current
+squad/fixture state.
 
 ## Step 2: Research Current News
 
