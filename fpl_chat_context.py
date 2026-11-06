@@ -168,8 +168,9 @@ def chips_available(chip_windows, chips_used_season, current_gw, gameweeks_by_id
 def free_transfers_available(season_history, chips_used_season, max_extra_free_transfers):
     """Public FPL endpoints don't expose free-transfers-remaining directly,
     but it's fully reconstructable from transfer history: +1 per gameweek
-    (capped), consumed by transfers made, untouched during a Wildcard/Free
-    Hit week. Returns (free_transfers, reconciles) -- reconciles is False if
+    (capped), consumed by transfers made, a Wildcard week counts as one transfer
+    (the API reports 0 transfers that week), a Free Hit week leaves the bank
+    untouched. Returns (free_transfers, reconciles) -- reconciles is False if
     the simulation's predicted hits ever disagree with the actual hit cost
     charged, which would mean this rule model doesn't match something about
     the real season rules and the number shouldn't be trusted blindly."""
@@ -182,7 +183,13 @@ def free_transfers_available(season_history, chips_used_season, max_extra_free_t
         if event == 1:
             continue
         made = row.get("event_transfers", 0) or 0
-        if chip_by_event.get(event) in FREE_TRANSFER_CHIPS:
+        chip = chip_by_event.get(event)
+        if chip == "wildcard":
+            # The API records event_transfers=0 in a wildcard week, so the
+            # chip itself is counted as one transfer: it consumes that week's
+            # free transfer (verified against the FPL app: 1 FT entering GW10).
+            free_used, predicted_hits = min(1, ft), 0
+        elif chip in FREE_TRANSFER_CHIPS:  # freehit: bank untouched (unverified)
             free_used, predicted_hits = 0, 0
         else:
             free_used = min(made, ft)
@@ -320,10 +327,13 @@ def main():
         "free_transfers_available": free_transfers,
         "free_transfers_note": (
             "Not exposed directly by any public FPL endpoint -- derived by "
-            "replaying transfer history (gameweek-by-gameweek transfers made "
-            "vs. hit cost charged, capped per max_extra_free_transfers). "
-            "Trust it unless free_transfers_reconciles is false, in which "
-            "case confirm the real number before recommending a hit."
+            "replaying transfer history (+1 per gameweek, a wildcard week "
+            "counts as one transfer, capped per max_extra_free_transfers). "
+            "It is the count at the start of next_gameweek and cannot see "
+            "transfers already made since the last gameweek finished. "
+            "free_transfers_reconciles only checks past hit costs. Treat the "
+            "number as an estimate and confirm it in the app before "
+            "recommending a hit."
         ),
         "free_transfers_reconciles": free_transfers_reconciles,
         "chips_available": chips_available(
