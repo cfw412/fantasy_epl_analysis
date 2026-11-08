@@ -68,6 +68,29 @@ def fetch_entry_history(team_id):
     return get(f"{BASE}/entry/{team_id}/history/")
 
 
+def fetch_transfers(team_id):
+    return get(f"{BASE}/entry/{team_id}/transfers/")
+
+
+def selling_price_tenths(buy, now):
+    """FPL selling price (in tenths of £m): you keep half of any rise since
+    purchase, rounded down to the nearest £0.1m; a fall is passed on in full."""
+    return buy + (now - buy) // 2 if now > buy else now
+
+
+def purchase_price_tenths(player_id, bootstrap_by_id, transfers, squad_gw):
+    """What this entry paid for a player in its current squad: the cost of the
+    most recent transfer in (wildcard transfers are included in the feed), else
+    the player's start-of-season price for players held since the initial
+    squad. Returns (price_tenths, source)."""
+    ins = [t for t in transfers if t["element_in"] == player_id and t["event"] <= squad_gw]
+    if ins:
+        t = max(ins, key=lambda t: (t["event"], t["time"]))
+        return t["element_in_cost"], f"transfer in GW{t['event']}"
+    el = bootstrap_by_id[player_id]
+    return el["now_cost"] - el["cost_change_start"], "start-of-season price"
+
+
 def latest_finished_event(events):
     finished = [e for e in events if e.get("finished") or e.get("data_checked")]
     if not finished:
@@ -233,18 +256,30 @@ def summarize_players(bootstrap, upcoming_by_team, team_lookup):
     return players
 
 
-def summarize_squad(picks_data, players_by_id, bootstrap):
+def summarize_squad(picks_data, players_by_id, bootstrap, transfers=None):
     if not picks_data:
         return None
     entry_history = picks_data.get("entry_history", {})
     picks = picks_data.get("picks", [])
+    squad_gw = entry_history.get("event")
+    bootstrap_by_id = {el["id"]: el for el in bootstrap["elements"]}
     squad = []
     for pk in picks:
         p = players_by_id.get(pk["element"])
         if not p:
             continue
+        prices = {"purchase_price_m": None, "selling_price_m": None, "price_source": None}
+        if transfers is not None and squad_gw is not None and pk["element"] in bootstrap_by_id:
+            buy, source = purchase_price_tenths(pk["element"], bootstrap_by_id, transfers, squad_gw)
+            now = bootstrap_by_id[pk["element"]]["now_cost"]
+            prices = {
+                "purchase_price_m": buy / 10,
+                "selling_price_m": selling_price_tenths(buy, now) / 10,
+                "price_source": source,
+            }
         squad.append({
             **p,
+            **prices,
             "is_captain": pk.get("is_captain", False),
             "is_vice_captain": pk.get("is_vice_captain", False),
             "multiplier": pk.get("multiplier"),
@@ -256,6 +291,10 @@ def summarize_squad(picks_data, players_by_id, bootstrap):
         "bank": entry_history.get("bank", 0) / 10,
         "team_value": entry_history.get("value", 0) / 10,
         "free_transfers": None,  # not directly in this endpoint; see note below
+        "total_selling_value_m": (
+            round(sum(p["selling_price_m"] for p in squad), 1)
+            if squad and all(p["selling_price_m"] is not None for p in squad) else None
+        ),
         "picks": squad,
         "active_chip": picks_data.get("active_chip"),
     }
@@ -293,7 +332,12 @@ def main():
     try:
         entry_info = fetch_entry(args.team_id)
         picks_data = fetch_picks(args.team_id, last_finished)
-        picks_summary = summarize_squad(picks_data, players_by_id, bootstrap)
+        try:
+            transfers = fetch_transfers(args.team_id)
+        except requests.RequestException as e:
+            print(f"Warning: could not fetch transfers (selling prices unavailable): {e}", file=sys.stderr)
+            transfers = None
+        picks_summary = summarize_squad(picks_data, players_by_id, bootstrap, transfers)
     except requests.HTTPError as e:
         print(f"Warning: could not fetch entry {args.team_id}: {e}", file=sys.stderr)
 

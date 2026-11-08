@@ -29,7 +29,10 @@ PLAYER_FIELDS = [
     "avg_fixture_difficulty_next_n", "upcoming_fixtures", "minutes",
     "cost_change_event",
 ]
-SQUAD_EXTRA_FIELDS = ["is_captain", "is_vice_captain", "multiplier", "squad_position"]
+SQUAD_EXTRA_FIELDS = [
+    "is_captain", "is_vice_captain", "multiplier", "squad_position",
+    "purchase_price_m", "selling_price_m", "price_source",
+]
 
 PICK_FIELDS = [
     "name", "pos", "starter", "captain", "vice_captain", "multiplier",
@@ -234,6 +237,14 @@ def trim_squad(squad, team_trends):
         "points": squad.get("points"),
         "bank": squad.get("bank"),
         "team_value": squad.get("team_value"),
+        "total_selling_value_m": squad.get("total_selling_value_m"),
+        "selling_price_note": (
+            "selling_price_m is what you actually receive if you sell a squad "
+            "player (half of any rise since purchase, rounded down to £0.1m; "
+            "falls in full). price_m is the current/buy price. Use "
+            "selling_price_m for funds from a sale. Computed for the squad as "
+            "of the squad gameweek; transfers made since are not reflected."
+        ),
         "active_chip": squad.get("active_chip"),
         "picks": picks,
     }

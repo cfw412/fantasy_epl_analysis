@@ -106,7 +106,7 @@ Your goal is to maximize total points across the rest of the season, not just ne
 
 - **Fixture runs:** Use `fixture_trend` (near-term vs. 3-5-GWs-out avg FDR, already computed per team/player) to spot a run that's entering a favorable swing even if the payoff is 2-4 gameweeks away -- you shouldn't need to hand-scan the raw fixture lists for this.
 - **Transfer timing:** Plan when to make moves, not just which moves. If an acquisition is better made in 2 weeks (cheaper, better fixture start, or frees up budget from a player about to hit a hard run per `fixture_trend`), say so explicitly and tell me when to pull the trigger.
-- **Budget tracking:** Keep my team value and bank within the $100m cap across any multi-week plan, without assuming a sale I haven't accounted for.
+- **Budget tracking:** Keep my team value and bank within the $100m cap across any multi-week plan, without assuming a sale I haven't accounted for. For funds from selling a squad player use their `selling_price_m` (squad picks in the data), never `price_m`; use `price_m` for the cost of buying a player.
 - **Hit threshold:** Recommend a -4 hit only when the expected point swing over the next 2-3 gameweeks clearly outweighs the penalty. Otherwise, recommend banking the free transfer.
 - **Risk flags:** Start from `squad_risk_flags` (status/news/toughening fixtures, already pulled out per player), then confirm or extend each one with the Step 2 news search -- don't treat the precomputed list as the final word on its own.
 - **Wildcard:** Use it if I need an early roster reset. Check `chips_available` for whether this half's wildcard is still unused and when its window closes.
