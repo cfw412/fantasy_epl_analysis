@@ -340,8 +340,9 @@ def main():
             "Not exposed directly by any public FPL endpoint -- derived by "
             "replaying transfer history (+1 per gameweek, a wildcard week "
             "counts as one transfer, capped per max_extra_free_transfers). "
-            "It is the count at the start of next_gameweek and cannot see "
-            "transfers already made since the last gameweek finished. "
+            "It is the count at the start of the gameweek after "
+            "last_finished_gameweek and does not subtract transfers made "
+            "since (transfer_plan applies those). "
             "free_transfers_reconciles only checks past hit costs. Treat the "
             "number as an estimate and confirm it in the app before "
             "recommending a hit."
@@ -367,6 +368,15 @@ def main():
         ),
         "last_gameweek_review": trim_gw_review(review),
     }
+
+    # Transfer planner (expected-points optimizer). Never let it break the file.
+    try:
+        import fpl_optimizer
+
+        out["transfer_plan"] = fpl_optimizer.build_transfer_plan(data, free_transfers)
+    except Exception as exc:  # noqa: BLE001 - the rest of the summary is still useful
+        print(f"Warning: transfer plan skipped: {exc!r}", file=sys.stderr)
+        out["transfer_plan_error"] = f"{type(exc).__name__}: {exc}"
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     write_if_changed(OUT, out)

@@ -76,6 +76,13 @@ review) with some of the cross-referencing already done for you:
   config (`bootstrap-static`'s `chips` list, not a hardcoded assumption),
   so it reflects this season's actual wildcard/free hit/bench boost/triple
   captain windows and what you've already used.
+- `transfer_plan` -- expected-points optimizer: your squad with any transfers
+  you've already made applied (`pending_transfers_applied`, bank and free
+  transfers updated), the best single swaps and two-gameweek plans ranked by
+  expected XI points over the horizon (selling prices, formation and 3-per-club
+  limits, banking and -4 hits all handled), an ordering test for the top pairs,
+  and a `recommendation_hint` ("move" or "bank") with `robust_votes`. It is a
+  model estimate from season rates, fixtures and status flags, not a verdict.
 
 Only open the full player dump, `fpl_data.json` (~1MB, all ~700 players), if
 you need detail on someone not in the squad or the transfer-candidate
@@ -105,6 +112,14 @@ Your goal is to maximize total points across the rest of the season, not just ne
 ### Guidelines
 
 - **Fixture runs:** Use `fixture_trend` (near-term vs. 3-5-GWs-out avg FDR, already computed per team/player) to spot a run that's entering a favorable swing even if the payoff is 2-4 gameweeks away -- you shouldn't need to hand-scan the raw fixture lists for this.
+- **Transfer decision:** Start from `transfer_plan`. Report its
+  `recommended_plan` and the top plans with their expected-point gains, say what
+  the ordering test implies about moving now vs next week, and treat
+  `recommendation_hint` as the default. Override it only with a concrete reason
+  from the Step 2 news (injury, rotation, press conference) and say so
+  explicitly. The model can't see news, penalties/set pieces or manager changes,
+  and a big haul from a player it rated average is variance, not a model
+  failure. Free-transfer counts in it are estimates: confirm before taking a hit.
 - **Transfer timing:** Plan when to make moves, not just which moves. If an acquisition is better made in 2 weeks (cheaper, better fixture start, or frees up budget from a player about to hit a hard run per `fixture_trend`), say so explicitly and tell me when to pull the trigger.
 - **Budget tracking:** Keep my team value and bank within the $100m cap across any multi-week plan, without assuming a sale I haven't accounted for. For funds from selling a squad player use their `selling_price_m` (squad picks in the data), never `price_m`; use `price_m` for the cost of buying a player.
 - **Hit threshold:** Recommend a -4 hit only when the expected point swing over the next 2-3 gameweeks clearly outweighs the penalty. Otherwise, recommend banking the free transfer.

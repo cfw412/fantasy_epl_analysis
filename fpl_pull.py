@@ -329,6 +329,7 @@ def main():
     last_finished = latest_finished_event(events)
     entry_info = None
     picks_summary = None
+    transfers = None
     try:
         entry_info = fetch_entry(args.team_id)
         picks_data = fetch_picks(args.team_id, last_finished)
@@ -357,6 +358,12 @@ def main():
             "overall_rank": entry_info.get("summary_overall_rank") if entry_info else None,
         } if entry_info else None,
         "squad": picks_summary,
+        # Transfers made after the squad snapshot's gameweek (e.g. a move for a
+        # gameweek whose deadline has passed); the optimizer applies them.
+        "pending_transfers": (
+            [t for t in transfers if t["event"] > (picks_summary or {}).get("gameweek", 0)]
+            if transfers is not None and picks_summary else None
+        ),
         "team_fixture_runs_best_to_worst": team_fixture_runs,
         "chip_windows": bootstrap.get("chips", []),
         "max_extra_free_transfers": bootstrap.get("game_settings", {}).get("max_extra_free_transfers"),
