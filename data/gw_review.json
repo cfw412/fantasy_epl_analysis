@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:16:33.035037+00:00",
+  "generated_at": "2026-11-23T01:40:25.090048+00:00",
   "entry_id": 4455838,
   "gameweek": 10,
   "finished": true,
@@ -834,18 +834,18 @@
     },
     {
       "event": 11,
-      "points": 42,
-      "total_points": 589,
-      "rank": 205084,
-      "rank_sort": 215311,
-      "overall_rank": 4582551,
+      "points": 49,
+      "total_points": 596,
+      "rank": 497158,
+      "rank_sort": 515121,
+      "overall_rank": 4770427,
       "percentile_rank": 5,
-      "overall_rank_percentage": "41",
+      "overall_rank_percentage": "42",
       "bank": 9,
       "value": 1013,
       "event_transfers": 0,
       "event_transfers_cost": 0,
-      "points_on_bench": 7
+      "points_on_bench": 9
     }
   ]
 }
